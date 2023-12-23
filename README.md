@@ -25,3 +25,29 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## ngModel -> binding direzionale: lettura e scrittura
+
+## codeInjection -> inserimento di variabili nel costruttore che permette di accedere alle proprierà della variabile iniettata
+
+## aggiunta di un parametro nel routing
+
+## ngIf e ngFor
+
+## pipe per modificare la formattazione dei dati visualizzati nelle tabelle
+
+## importazione bootstrap nello style.css
+
+## Moduli di Angular, cosa sono? Insieme di componenti, direttive, servizi e altri elementi correlati che vengono organizzato in un'unica unità funzionale per rendere l'app più modulare, scalabile e mantenibile (organizzare il codice in modo più funzionale). Esistono varie tipologie di moduli: - moduli RADICE (root module), il principale dell'app che definisce le dipendenze globali e fornisce un punto di ingresso per l'app; - moduli FEATURE sono moduli specifici chge organizzano le funzionalità dell'app in unità separate e contengono componenti e servizi correlati ad una specifica funzionalità o area dell'app.
+
+## creazione di core component (header footer)
+
+## iterazione tra componenti padre e figlio attraverso l'@Input direttiva (vedi relazione tra jubotrone e login component)
+
+## aggiunta di un routerlink per il direzionamento alle altre pagine
+
+## Servizi in Angular -> sono classi che forniscono funzionalità specifiche e possono essere condivise tra diversi componenti. Sono usati per separare la business logic e la gestione dei dati dai componenti, favorendo così la modularità e la riutilizzabilità del codice. Possono essere utilizzati per diverse attività (es. l'accesso ad API esterne, la condivizione dei dati tra i componenti, business logic complessa etc. ). Utilizzano la Dipendency Injection.
+
+## Interfaccia CanActivate per la protezione delle rotte attraverso la creazione di un RouteGuardService
+
+## Attivazione delle material icons e del foglio di stile "round.css"
