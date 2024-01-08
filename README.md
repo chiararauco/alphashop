@@ -51,3 +51,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Interfaccia CanActivate per la protezione delle rotte attraverso la creazione di un RouteGuardService
 
 ## Attivazione delle material icons e del foglio di stile "round.css"
+
+## Input(), interazione da componente padre a componente figlio
+
+## Output(), interazione da componente figlio a componente padre
+
+## Introdzione ai WEB SERVICES: tecnologia che consente a diverse app di comunicare tra loro attraverso internet. Questo servizio permette ad un'app di richiedere info o inviare dati ad un'altra app. I WS sono basati su una serie di standard e protocolli che definiscono come le applicazioni devono comunicare tra di loro (es. HTTP). Consentono l'interazione tra sistemi SOAP e REST, facilitando lo sviluppo di applicazioni complesse ed interconnese.

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthappService } from 'src/service/authapp.service';
+import { AuthappService } from 'src/services/authapp.service';
 
 @Component({
   selector: 'app-header',
