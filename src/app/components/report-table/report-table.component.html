@@ -1,0 +1,91 @@
+<div class="container">
+    <table class="table table-class" id="table-id">
+
+        <thead>
+            <tr class="div-2">
+                <th class="div-3">Allievo</th>
+                <th>Moduli Completati</th>
+                <th>Questionari Completati</th>
+                <th>Obiettivi Completati</th>
+                <th>Valutazione</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Stelmit10</td>
+                <td>75%</td>
+                <td>3 di 4</td>
+                <td>4 di 5</td>
+                <td>28</td>
+
+            </tr>
+            <tr>
+                <td>Stelmit11</td>
+                <td>25%</td>
+                <td>1 di 4</td>
+                <td>3 di 5</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Stelmit12</td>
+                <td>100%</td>
+                <td>4 di 4</td>
+                <td>5 di 5</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Stelmit13</td>
+                <td>50%</td>
+                <td>2 di 4</td>
+                <td>2 di 5</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Stelmit14</td>
+                <td>50%</td>
+                <td>2 di 4</td>
+                <td>3 di 5</td>
+                <td>20</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <!--		Start Pagination -->
+    <div class='pagination-container'>
+
+        <nav>
+            <ul class="pagination">
+                <div class="rows-container">
+                    <p clss="p-rows">Rows per page</p>
+                    <div class="form-group"> <!--		Show Numbers Of Rows 		-->
+                        <select class="form-control" name="state" id="maxRows">
+                            <option value="5000">Show ALL Rows</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                            <option value="70">70</option>
+                            <option value="100">100</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <li class="li" data-page="prev">
+                    <span class="span">
+                        < Previous </span>
+                </li>
+                <li class="li" data-page="next" id="prev">
+                    <span class="span"> Next >
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</div>

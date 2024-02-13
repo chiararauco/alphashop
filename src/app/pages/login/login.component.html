@@ -1,9 +1,28 @@
-<app-jumbotron [Titolo]="titolo" [Sottotitolo]="sottotitolo"></app-jumbotron>
+<!-- <app-jumbotron [Titolo]="titolo" [Sottotitolo]="sottotitolo"></app-jumbotron> -->
 
-<div class="container login-container">
-    <div class="row">
-        <div class="col-md-6 login-form">
-            <h3>Sign in</h3>
+
+<div class="login">
+    <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+            <div class="login-form">
+                <div class="text-wrapper">Accedi</div>
+                <div class="div">Password</div>
+                <div class="text-wrapper-2">Non ricordi la password?</div>
+                <div class="text-wrapper-3">Username</div>
+                <input type="text" class="rectangle" />
+                <input type="text" class="rectangle-2" />
+                <div class="button">
+
+                    <div class="base"><button class="button-2">ACCEDI</button></div>
+                </div>
+
+            </div>
+            <div class="text-wrapper-4">Cyber Range Unavox 1.0</div>
+            <p class="p">LMS 2.0 Your leanrning platform</p>
+        </div>
+    </div>
+</div>
+<!-- <h3>Sign in</h3>
             <div class="form-group">
                 <input type="text" class="form-control" id="userId" placeholder="Nome Utente / Mail"
                     [(ngModel)]="userId">
@@ -19,10 +38,7 @@
             </div>
             <div class="alert alert-danger" role="alert" *ngIf='!autenticato'>
                 {{errMsg}}
-            </div>
-            <!-- <div class="alert alert-danger" role="alert" *ngIf='notlogged'>
+            </div> -->
+<!-- <div class="alert alert-danger" role="alert" *ngIf='notlogged'>
                 {{errMsg2}}
             </div> -->
-        </div>
-    </div>
-</div>

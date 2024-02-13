@@ -3,18 +3,40 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './pages/login/login.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { ErrorComponent } from './pages/error/error.component';
-import { ArticoliComponent } from './pages/articoli/articoli.component';
 import { LogoutComponent } from './pages/logout/logout.component';
 import { RouteGuardService } from 'src/services/route-guard.service';
-import { GridArticoliComponent } from './pages/grid-articoli/grid-articoli.component';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { PersonalAreaComponent } from './pages/personal-area/personal-area.component';
+import { CoursesComponent } from './pages/courses/courses.component';
+import { CreateCourseComponent } from './pages/create-course/create-course.component';
+import { ClassesComponent } from './pages/classes/classes.component';
+import { CreateClassComponent } from './pages/create-class/create-class.component';
+import { StudentsComponent } from './pages/students/students.component';
+import { StudentStatusComponent } from './pages/student-status/student-status.component';
+import { StudentListComponent } from './pages/student-list/student-list.component';
+import { GamesComponent } from './pages/games/games.component';
+import { DetailClassComponent } from './pages/detail-class/detail-class.component';
+import { DetailCourseComponent } from './pages/detail-course/detail-course.component';
+import { AvailableClassesComponent } from './pages/available-classes/available-classes.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent }, //componente da visualizzare se non ci sono pagine specifiche 
   { path: 'login', component: LoginComponent },
-  { path: 'welcome/:userid', component: WelcomeComponent, canActivate: [RouteGuardService] },
-  { path: 'articoli', component: ArticoliComponent, canActivate: [RouteGuardService] },
-  { path: 'articoli/grid', component: GridArticoliComponent, canActivate: [RouteGuardService] },
-  { path: 'logout', component: LogoutComponent },
+  { path: 'homepage', component: HomepageComponent },
+  { path: 'personal', component: PersonalAreaComponent },
+  { path: 'courses', component: CoursesComponent },
+  { path: 'create-course', component: CreateCourseComponent },
+  { path: 'classes', component: ClassesComponent },
+  { path: 'create-class', component: CreateClassComponent },
+  { path: 'students', component: StudentsComponent },
+  { path: 'student-status', component: StudentStatusComponent },
+  { path: 'student-list', component: StudentListComponent },
+  { path: 'games', component: GamesComponent },
+  { path: 'detail-class', component: DetailClassComponent },
+  { path: 'detail-course', component: DetailCourseComponent },
+  { path: 'available-classes', component: AvailableClassesComponent },
+  // { path: 'welcome/:userid', component: WelcomeComponent, canActivate: [RouteGuardService] },
+  // { path: 'logout', component: LogoutComponent },
   { path: '**', component: ErrorComponent } // componente che si visualizza quando una pagina non esiste
 ];
 

@@ -1,12 +1,174 @@
-img {
-  display: inline-block;
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background-color: #ededed;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #00000033;
 }
 
-.dduser {
-  margin-right: 50px;
-  margin-left: 50px;
+.navbar .unavox-logo {
+  position: absolute;
+  width: 301px;
+  height: 73px;
+  top: 21px;
+  left: 51px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-nav {
-  margin-bottom: 0.8%;
+.navbar .text-wrapper {
+  position: absolute;
+  top: 43px;
+  left: 403px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.navbar .div {
+  position: absolute;
+  top: 43px;
+  left: 477px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.navbar .text-wrapper-2 {
+  position: absolute;
+  top: 43px;
+  left: 688px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.navbar .text-wrapper-3 {
+  position: absolute;
+  top: 43px;
+  left: 763px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.navbar .text-wrapper-4 {
+  position: absolute;
+  top: 43px;
+  left: 619px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.navbar .text-wrapper-5 {
+  position: absolute;
+  top: 43px;
+  left: 838px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.navbar .text-wrapper-6 {
+  position: absolute;
+  top: 46px;
+  left: calc(100% - 25%);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0.15px;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.navbar .personal {
+  position: absolute;
+  width: 237px;
+  height: 73px;
+  top: 21px;
+  left: calc(100% - 15%);
+  background-color: #ededed;
+  border: none;
+}
+
+.navbar .left-content {
+  display: flex;
+  flex-direction: column;
+  width: 56px;
+  height: 42px;
+  align-items: flex-start;
+  position: absolute;
+  top: 16px;
+  left: 153px;
+}
+
+.navbar .icon {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.navbar .person-filled {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.navbar .listitem-text {
+  display: flex;
+  flex-direction: column;
+  width: 99px;
+  align-items: flex-start;
+  padding: 4px 0px;
+  position: absolute;
+  top: 21px;
+  left: 51px;
+}
+
+.navbar .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--typography-body1-font-family);
+  font-weight: var(--typography-body1-font-weight);
+  color: #000000;
+  font-size: var(--typography-body1-font-size);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+  font-style: var(--typography-body1-font-style);
+}
+
+.nav-button {
+  border: none;
+  background: transparent;
 }

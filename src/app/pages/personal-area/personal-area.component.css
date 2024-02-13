@@ -1,0 +1,463 @@
+.personal-area {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.personal-area .div {
+  background-color: #ededed;
+  width: 1440px;
+  height: 1577px;
+  position: relative;
+}
+
+.personal-area .divider {
+  position: absolute;
+  width: 1276px;
+  height: 101px;
+  top: 701px;
+  left: 82px;
+}
+
+.personal-area .divider-horizontal {
+  display: flex;
+  flex-direction: column;
+  width: 1276px;
+  height: 3px;
+  align-items: flex-start;
+  position: relative;
+  top: 51px;
+  background-color: #d9d9d9;
+}
+
+.personal-area .min-height {
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.personal-area .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.personal-area .overlap {
+  position: absolute;
+  width: 1276px;
+  height: 693px;
+  top: 825px;
+  left: 82px;
+}
+
+.personal-area .divider-horizontal-wrapper {
+  position: absolute;
+  width: 974px;
+  height: 101px;
+  top: 592px;
+  left: 151px;
+}
+
+.personal-area .divider-horizontal-2 {
+  display: flex;
+  flex-direction: column;
+  width: 890px;
+  height: 3px;
+  align-items: flex-start;
+  position: relative;
+  top: 51px;
+  left: 42px;
+  background-color: #d9d9d9;
+}
+
+.personal-area .accordion-summary {
+  position: absolute;
+  width: 1276px;
+  height: 680px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.personal-area .property-default {
+  display: flex;
+  flex-direction: column;
+  width: 1249px;
+  height: 310px;
+  align-items: flex-start;
+  top: 20px;
+  background-color: #ededed;
+  border-radius: var(--shape-borderradius) var(--shape-borderradius)
+    var(--shape-none) var(--shape-none);
+  box-shadow: 0px 1px 3px #0000001f;
+  position: absolute;
+  left: 20px;
+}
+
+.personal-area .container {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  padding: 0px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.personal-area .typography {
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.personal-area .body {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-bottom: -5px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--palette-text-primary);
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.personal-area .accordion-expand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.personal-area .icon-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.personal-area .icon {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.personal-area .expand-less-filled {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.personal-area .accordion-details {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: flex-start;
+  padding: var(--sizing-1) var(--sizing-2) var(--sizing-2) var(--sizing-2);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ededed;
+}
+
+.text-wrapper {
+  position: relative;
+  width: 524px;
+  height: 24px;
+  margin-top: -1px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #3164f4;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.text-wrapper-2 {
+  position: relative;
+  width: 524px;
+  height: 24px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #3164f4;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.personal-area .text-wrapper-3 {
+  position: relative;
+  width: 524px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #3164f4;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}
+
+.personal-area .property {
+  display: flex;
+  flex-direction: column;
+  width: 1249px;
+  height: 310px;
+  align-items: flex-start;
+  top: 350px;
+  background-color: #ededed;
+  border-radius: var(--shape-borderradius) var(--shape-borderradius)
+    var(--shape-none) var(--shape-none);
+  box-shadow: 0px 1px 3px #0000001f;
+  position: absolute;
+  left: 20px;
+}
+
+.personal-area .overlap-group {
+  position: absolute;
+  width: 1277px;
+  height: 605px;
+  top: 73px;
+  left: 81px;
+  border-radius: 10px;
+}
+
+.personal-area .frame {
+  width: 1277px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  height: 605px;
+  top: 0;
+}
+
+.personal-area .attacco {
+  position: absolute;
+  width: 488px;
+  height: 521px;
+  top: 42px;
+  left: 748px;
+  object-fit: cover;
+}
+
+.personal-area .frame-2 {
+  width: 707px;
+  left: 1px;
+  position: absolute;
+  height: 605px;
+  top: 0;
+}
+
+.personal-area .p {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.personal-area .text-wrapper-4 {
+  position: absolute;
+  top: 80px;
+  left: 33px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.personal-area .list-items-available {
+  position: absolute;
+  width: 707px;
+  height: 488px;
+  top: 117px;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.personal-area .property-default-2 {
+  position: absolute;
+  width: 628px;
+  height: 97px;
+  top: 20px;
+  left: 20px;
+}
+
+.personal-area .vector-wrapper {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 22px;
+  left: 16px;
+  background-color: #2196f3;
+  border-radius: 26.5px;
+}
+
+.personal-area .vector {
+  position: absolute;
+  width: 20px;
+  height: 21px;
+  top: 18px;
+  left: 16px;
+  color: white;
+}
+
+.personal-area .text-wrapper-5 {
+  position: absolute;
+  top: 40px;
+  left: 118px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.personal-area .primary-button {
+  display: flex;
+  width: 81px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: absolute;
+  top: 37px;
+  left: 422px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: transparent;
+  border: none;
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.personal-area .primary-button-orange {
+    display: flex;
+    width: 81px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    position: absolute;
+    top: 37px;
+    left: 422px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background: transparent;
+    border: none;
+    color: #ff9500;
+    font-weight: bold;
+  }
+
+.personal-area .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -7px;
+  margin-bottom: -5px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #2196f3;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.personal-area .label-wrapper {
+  display: flex;
+  width: 81px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: absolute;
+  top: 37px;
+  left: 528px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: transparent;
+    border: none;
+    color: #ff9500;
+    font-weight: bold;
+}
+
+.personal-area .label-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -7px;
+  margin-bottom: -5px;
+  margin-left: -15px;
+  margin-right: -15px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ff9500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.personal-area .property-variant {
+  position: absolute;
+  width: 628px;
+  height: 97px;
+  top: 137px;
+  left: 20px;
+}
+
+.personal-area .property-2 {
+  width: 628px;
+  height: 97px;
+  top: 254px;
+  position: absolute;
+  left: 20px;
+}
+
+.personal-area .property-3 {
+  width: 628px;
+  height: 97px;
+  top: 371px;
+  position: absolute;
+  left: 20px;
+}

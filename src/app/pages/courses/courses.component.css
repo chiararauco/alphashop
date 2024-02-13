@@ -1,0 +1,312 @@
+.corsi-disponibili {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.corsi-disponibili .div {
+  background-color: #ededed;
+  width: 1440px;
+  height: 1220px;
+  position: relative;
+}
+
+.corsi-disponibili .divider {
+  position: absolute;
+  width: 1223px;
+  height: 88px;
+  top: 323px;
+  left: 108px;
+  overflow: hidden;
+}
+
+.corsi-disponibili .divider-horizontal {
+  display: flex;
+  flex-direction: column;
+  width: 1276px;
+  height: 3px;
+  align-items: flex-start;
+  position: relative;
+  top: 51px;
+  background-color: #d9d9d9;
+}
+
+.corsi-disponibili .min-height {
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.corsi-disponibili .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.corsi-disponibili .add-button {
+  position: absolute;
+  width: 288px;
+  height: 78px;
+  top: 32px;
+  left: 1070px;
+  border: none;
+  background: transparent;
+}
+
+.corsi-disponibili .add-circle-outline {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 25px;
+  left: 230px;
+}
+
+.corsi-disponibili .text-wrapper {
+  position: absolute;
+  height: 24px;
+  top: 37px;
+  left: 42px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #3164f4;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.corsi-disponibili .card-scorrevoli {
+  position: absolute;
+  width: 1269px;
+  height: 740px;
+  top: 415px;
+  left: 85px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.corsi-disponibili .property-default {
+  top: 20px;
+  position: absolute;
+  width: 1223px;
+  height: 340px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.corsi-disponibili .text-wrapper-2 {
+  position: absolute;
+  top: 19px;
+  left: 25px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #20b2aa;
+  font-size: 19px;
+  letter-spacing: 0.15px;
+  line-height: 13px;
+  white-space: nowrap;
+}
+
+.corsi-disponibili .card-dettaglio-corso {
+  position: absolute;
+  width: 217px;
+  height: 261px;
+  top: 59px;
+  left: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #c2c2c2;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.corsi-disponibili .rectangle {
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  top: 42px;
+  left: 23px;
+  object-fit: cover;
+}
+
+.corsi-disponibili .text-wrapper-3 {
+  position: absolute;
+  width: 170px;
+  top: 129px;
+  left: 23px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 21px;
+}
+
+.corsi-disponibili .p {
+  position: absolute;
+  width: 170px;
+  top: 195px;
+  left: 23px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #20b2aa;
+  font-size: 11px;
+  letter-spacing: 0.15px;
+  line-height: 13px;
+}
+
+.corsi-disponibili .card-dettaglio-corso-2 {
+  top: 58px;
+  left: 730px;
+  position: absolute;
+  width: 217px;
+  height: 261px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #c2c2c2;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.corsi-disponibili .overlap-group {
+  position: absolute;
+  width: 237px;
+  height: 261px;
+  top: 59px;
+  left: 965px;
+}
+
+.corsi-disponibili .card-dettaglio-corso-3 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 217px;
+  height: 261px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #c2c2c2;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.corsi-disponibili .play-circle-filled {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 114px;
+  left: 197px;
+}
+
+.corsi-disponibili .card-dettaglio-corso-4 {
+  top: 59px;
+  left: 260px;
+  position: absolute;
+  width: 217px;
+  height: 261px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #c2c2c2;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.corsi-disponibili .card-dettaglio-corso-5 {
+  top: 59px;
+  left: 495px;
+  position: absolute;
+  width: 217px;
+  height: 261px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #c2c2c2;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.corsi-disponibili .property {
+  top: 380px;
+  position: absolute;
+  width: 1223px;
+  height: 340px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.corsi-disponibili .frame {
+  position: absolute;
+  width: 1273px;
+  height: 205px;
+  top: 118px;
+  left: 85px;
+  background-color: #3164f4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.corsi-disponibili .intestazione-card {
+  position: relative;
+  width: 736px;
+  height: 160px;
+  top: 22px;
+  left: 22px;
+}
+
+.corsi-disponibili .text-wrapper-4 {
+  position: absolute;
+  width: 402px;
+  top: 35px;
+  left: 30px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}
+
+.corsi-disponibili .local-library-wrapper {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 10px;
+  left: 455px;
+  background-image: url(./../../../assets/font/book-reader-svgrepo-com.svg);
+  background-size: 100% 100%;
+}
+
+.corsi-disponibili .local-library {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 0;
+}
+
+.corsi-disponibili .text-wrapper-5 {
+  position: absolute;
+  width: 602px;
+  top: 82px;
+  left: 30px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}

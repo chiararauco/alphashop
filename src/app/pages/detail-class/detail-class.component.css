@@ -1,0 +1,537 @@
+/* screen - dettaglio-classe */
+
+.dettaglio-classe {
+  align-items: center;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  height: 1602px;
+  width: 100%;
+}
+
+.dettaglio-classe .navbar-variant2 {
+  align-items: center;
+  background-color: var(--gallery);
+  border: 1px solid;
+  border-color: var(--black-5);
+  border-radius: 2px;
+  display: flex;
+  height: 121px;
+  margin-top: -180px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.dettaglio-classe .unavox-logo-1 {
+  align-self: flex-start;
+  height: 73px;
+  margin-left: -13519px;
+  margin-top: -2620px;
+  object-fit: cover;
+  width: 301px;
+}
+
+.dettaglio-classe .place {
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  margin-bottom: 9px;
+  margin-left: 13621px;
+  min-height: 26px;
+  min-width: 49px;
+  white-space: nowrap;
+}
+
+.dettaglio-classe .sessioni-di-gioco {
+  letter-spacing: 0.15px;
+  line-height: 25.6px;
+  margin-bottom: 9px;
+  margin-left: 26px;
+  min-height: 26px;
+  min-width: 139px;
+  white-space: nowrap;
+}
+
+.dettaglio-classe .personal {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  gap: 3px;
+  height: 73px;
+  margin-bottom: 6px;
+  margin-left: 54px;
+  padding: 16px 49px;
+  width: 237px;
+}
+
+.dettaglio-classe .person-filled {
+  height: 35px;
+  margin-left: -14910px;
+  margin-top: -2678px;
+  position: relative;
+  width: 35px;
+}
+
+.dettaglio-classe .overlap-group {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3px;
+  min-height: fit-content;
+  padding: 20px 38px;
+  width: 1277px;
+  background: white;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+
+.dettaglio-classe .frame-5 {
+  align-items: flex-end;
+  display: flex;
+  height: 108px;
+  margin-left: 19px;
+  padding: 40px 58px;
+  width: 624px;
+}
+
+.dettaglio-classe .title {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  min-width: 246px;
+  white-space: nowrap;
+}
+
+.dettaglio-classe .overlap-group1 {
+  align-self: flex-end;
+  height: 160px;
+  position: relative;
+  width: 1182px;
+}
+
+.dettaglio-classe .divider {
+  align-items: center;
+  display: flex;
+  height: 101px;
+  left: 0;
+  overflow: hidden;
+  padding: 30px 0;
+  position: absolute;
+  top: 70px;
+  width: 1182px;
+}
+
+.dettaglio-classe .divider-horizontal {
+  align-items: flex-start;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  height: 3px;
+  margin-left: -34px;
+  position: relative;
+  width: 1200px;
+}
+
+.dettaglio-classe .title-description-class {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  height: 80px;
+  left: 58px;
+  padding: 0 23px;
+  position: absolute;
+  top: 0;
+  width: 780px;
+}
+
+.dettaglio-classe .help-outline {
+  height: 68px;
+  width: 68px;
+}
+
+.dettaglio-classe .corso-host-security {
+  color: #ff9500;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  margin-bottom: 2px;
+  min-width: 648px;
+  white-space: nowrap;
+}
+
+.dettaglio-classe .di-seguito-le-inform {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  margin-left: 106px;
+  margin-top: 11px;
+  width: 382px;
+}
+
+.dettaglio-classe .overlap-group2 {
+  align-self: center;
+  border-radius: 5px;
+  height: 865px;
+  margin-top: 47px;
+  position: relative;
+  width: 929px;
+}
+
+.dettaglio-classe .frame-7 {
+  align-items: center;
+  border: 1px dashed;
+  border-color: #9747ff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: fit-content;
+  left: 0;
+  overflow: hidden;
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  width: 929px;
+}
+
+.dettaglio-classe .property-1-default {
+  gap: 218px;
+  height: 56px;
+}
+
+.dettaglio-classe .titolo {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 59px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.dettaglio-classe .classe {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant2 {
+  gap: 167px;
+  height: 56px;
+}
+
+.dettaglio-classe .sommario {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 110px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.dettaglio-classe .segui-le-nuove-lezioni {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant3 {
+  gap: 56px;
+  height: 65px;
+}
+
+.dettaglio-classe .descrizione-sorgente {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 221px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.dettaglio-classe .lezioni-aggiornate-2024 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant4 {
+  gap: 74px;
+  height: 56px;
+}
+
+.dettaglio-classe .data-inizio-prevista {
+  min-width: 203px;
+  font-weight: bold;
+}
+
+.dettaglio-classe .domenica-02-febbraio-2024-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant5 {
+  gap: 61px;
+  height: 56px;
+}
+
+.dettaglio-classe .data-inizio-iscrizione {
+  min-width: 216px;
+  font-weight: bold;
+}
+
+.dettaglio-classe .domenica-02-febbraio-2024-0100-1 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant6 {
+  gap: 77px;
+  height: 56px;
+}
+
+.dettaglio-classe .data-fine-iscrizione {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 200px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.dettaglio-classe .gioved-12-febbraio-2024-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant7 {
+  gap: 166px;
+  height: 56px;
+}
+
+.dettaglio-classe .data-inizio {
+  min-width: 111px;
+  font-weight: bold;
+}
+
+.dettaglio-classe .lunedi-03-febbrazio-2023-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant8 {
+  gap: 182px;
+  height: 56px;
+}
+
+.dettaglio-classe .data-fine {
+  min-width: 95px;
+  font-weight: bold;
+}
+
+.dettaglio-classe .sabato-29-febbrazio-2023-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant9 {
+  gap: 215px;
+  height: 56px;
+}
+
+.dettaglio-classe .corso {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 62px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.dettaglio-classe .number {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant10 {
+  gap: 163px;
+  height: 56px;
+}
+
+.dettaglio-classe .insegnanti {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 114px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.dettaglio-classe .istruttore-1 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .property-1-variant11 {
+  gap: 187px;
+  height: 56px;
+}
+.dettaglio-classe .property-1-variant12 {
+  gap: 187px;
+  height: fit-content;
+}
+
+.dettaglio-classe .studenti {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 90px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.dettaglio-classe .stelmilit13 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.dettaglio-classe .primary-button {
+  /* align-items: center; */
+  background-color: #3164f4;
+  border-radius: 8px;
+  cursor: pointer;
+  gap: 8px;
+  height: 45px;
+  /* justify-content: center; */
+  left: 789px;
+  padding: 12px 20px;
+  /* position: absolute; */
+  /* top: 555px; */
+  transition: all 0.3s ease;
+  width: 110px;
+  /* align-items: flex-start;
+  display: flex;
+  padding: 14px 10px;
+  width: 889px; */
+  color: white;
+  border: none;
+}
+
+.dettaglio-classe .primary-button:hover {
+  transform: scale(0.97);
+}
+
+.dettaglio-classe .label {
+  color: var(--system-backgroundssb-l-primary);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dettaglio-classe .data {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  white-space: nowrap;
+}
+
+.dettaglio-classe .data-inizio-1 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  white-space: nowrap;
+}
+
+.dettaglio-classe .property-1 {
+  align-items: flex-start;
+  display: flex;
+  padding: 14px 10px;
+  width: 889px;
+}
+.dettaglio-classe .property-2 {
+  align-items: flex-start;
+  display: flex;
+  padding: 14px 10px;
+  width: 889px;
+  justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* modal css */
+
+.minimize-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.dialog-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: bold;
+}
+.icon-button {
+  background: transparent;
+  border: none;
+}
+.dialog-body {
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #efefefef;
+  min-width: 850px;
+}
+
+.download-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.print-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.dialog-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}

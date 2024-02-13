@@ -1,0 +1,432 @@
+.allievi {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.allievi .div {
+  background-color: #ededed;
+  width: 1440px;
+  height: 1500px;
+  position: relative;
+}
+
+.allievi .frame {
+  position: absolute;
+  width: 1277px;
+  height: fit-content;
+  top: 471px;
+  left: 81px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.allievi .group {
+  position: relative;
+  top: 27px;
+  left: 27px;
+  width: 1223px;
+  height: 620px;
+}
+
+.allievi .overlap-group {
+  position: relative;
+  height: 620px;
+}
+
+.allievi .table-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1223px;
+  height: 620px;
+}
+
+.allievi .table {
+  flex-direction: column;
+  width: 1223px;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.allievi .div-2 {
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--palette-divider);
+  display: flex;
+  position: relative;
+}
+
+.allievi .div-3 {
+  align-items: center;
+  padding: 16px;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #00000000;
+  display: flex;
+  position: relative;
+}
+
+.allievi .head {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--table-header-font-family);
+  font-weight: var(--table-header-font-weight);
+  color: var(--palette-text-primary);
+  font-size: var(--table-header-font-size);
+  letter-spacing: var(--table-header-letter-spacing);
+  line-height: var(--table-header-line-height);
+  white-space: nowrap;
+  font-style: var(--table-header-font-style);
+}
+
+.allievi .box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.allievi .typography {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.allievi .body {
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--palette-text-primary);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: 14px;
+  letter-spacing: 0.17px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.allievi .body-wrapper {
+  margin-right: -84.4px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.allievi .text-wrapper {
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ff9500;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: 14px;
+  letter-spacing: 0.17px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.allievi .body-2 {
+  font-family: var(--typography-body2-font-family);
+  font-weight: var(--typography-body2-font-weight);
+  color: var(--palette-text-primary);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: var(--typography-body2-font-size);
+  letter-spacing: var(--typography-body2-letter-spacing);
+  line-height: var(--typography-body2-line-height);
+  white-space: nowrap;
+  font-style: var(--typography-body2-font-style);
+}
+
+.allievi .div-wrapper {
+  margin-right: -13.4px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.allievi .table-footer {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 26px;
+  padding: 2px 0px;
+  align-self: stretch;
+  width: fit-content;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  margin-left: 50%;
+}
+
+.allievi .container {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.allievi .rows-per-page {
+  position: relative;
+  width: fit-content;
+  font-family: var(--typography-caption-font-family);
+  font-weight: var(--typography-caption-font-weight);
+  color: var(--palette-text-secondary);
+  font-size: var(--typography-caption-font-size);
+  letter-spacing: var(--typography-caption-letter-spacing);
+  line-height: var(--typography-caption-line-height);
+  white-space: nowrap;
+  font-style: var(--typography-caption-font-style);
+}
+
+.allievi .page {
+  position: relative;
+  width: 40px;
+  height: 24px;
+  margin-right: -2px;
+}
+
+.allievi .text-wrapper-2 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  font-family: var(--typography-caption-font-family);
+  font-weight: var(--typography-caption-font-weight);
+  color: var(--palette-text-primary);
+  font-size: var(--typography-caption-font-size);
+  letter-spacing: var(--typography-caption-letter-spacing);
+  line-height: var(--typography-caption-line-height);
+  white-space: nowrap;
+  font-style: var(--typography-caption-font-style);
+}
+
+.allievi .arrow-drop-down {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 14px;
+}
+
+.allievi .element-of {
+  position: relative;
+  width: fit-content;
+  font-family: var(--typography-caption-font-family);
+  font-weight: var(--typography-caption-font-weight);
+  color: var(--palette-text-primary);
+  font-size: var(--typography-caption-font-size);
+  letter-spacing: var(--typography-caption-letter-spacing);
+  line-height: var(--typography-caption-line-height);
+  white-space: nowrap;
+  font-style: var(--typography-caption-font-style);
+}
+
+.allievi .div-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.allievi .icon-button {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 100px;
+  overflow: hidden;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.allievi .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.allievi .vector {
+  top: 176px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1018px;
+}
+
+.allievi .vector-2 {
+  top: 431px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1018px;
+}
+
+.allievi .vector-3 {
+  top: 482px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1018px;
+}
+
+.allievi .vector-4 {
+  top: 380px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1018px;
+}
+
+.allievi .vector-5 {
+  top: 329px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1018px;
+}
+
+.allievi .vector-6 {
+  top: 278px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1018px;
+}
+
+.allievi .vector-7 {
+  top: 227px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1018px;
+}
+
+.allievi .overlap {
+  position: absolute;
+  width: 1249px;
+  height: 133px;
+  top: 271px;
+  left: 81px;
+}
+
+.allievi .divider {
+  position: absolute;
+  width: 1223px;
+  height: 101px;
+  top: 0;
+  left: 26px;
+  overflow: hidden;
+}
+
+.allievi .divider-horizontal {
+  display: flex;
+  flex-direction: column;
+  width: 1276px;
+  height: 3px;
+  align-items: flex-start;
+  position: relative;
+  top: 51px;
+  background-color: #d9d9d9;
+}
+
+.allievi .min-height {
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.allievi .divider-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.allievi .p {
+  position: absolute;
+  top: 97px;
+  left: 0;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.15px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.allievi .title-card {
+  position: absolute;
+  width: 1277px;
+  height: 205px;
+  top: 61px;
+  left: 81px;
+  background-color: #4cd964;
+  border-radius: 10px;
+}
+
+.allievi .text-wrapper-3 {
+  position: absolute;
+  top: 89px;
+  left: 72px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.allievi .school {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 60px;
+  left: 230px;
+}
+
+.allievi .text-wrapper-4 {
+  position: absolute;
+  top: 414px;
+  left: 81px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.edit-button {
+  align-items: center;
+  padding: 16px;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #00000000;
+  display: flex;
+  position: relative;
+  border: none;
+}

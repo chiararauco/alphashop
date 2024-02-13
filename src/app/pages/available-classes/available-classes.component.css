@@ -1,0 +1,114 @@
+@clr-tab--inactive: black;
+.classi {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.classi .div {
+  background-color: #ededed;
+  width: 1440px;
+  height: 1100px;
+  position: relative;
+}
+
+.classi .divider {
+  position: absolute;
+  width: 1223px;
+  height: 101px;
+  top: 289px;
+  left: 104px;
+  overflow: hidden;
+}
+
+.classi .divider-horizontal {
+  display: flex;
+  flex-direction: column;
+  width: 1276px;
+  height: 3px;
+  align-items: flex-start;
+  position: relative;
+  top: 51px;
+  background-color: #d9d9d9;
+}
+
+.classi .min-height {
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.classi .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.classi .title-card {
+  position: absolute;
+  width: 1277px;
+  height: 205px;
+  top: 55px;
+  left: 79px;
+  background-color: #ff9500;
+  border-radius: 10px;
+}
+
+.classi .text-wrapper {
+  position: absolute;
+  top: 89px;
+  left: 72px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.classi .school {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 60px;
+  left: 230px;
+}
+
+.classi .container {
+  position: absolute;
+  width: 1320px;
+  height: 45%;
+  top: 370px;
+  left: 60px;
+}
+
+.classi .p {
+  position: absolute;
+  top: 6px;
+  left: 263px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.15px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.classi .overlap {
+  position: absolute;
+  width: 1285px;
+  height: 377px;
+  top: 25%;
+  left: 15px;
+  /* background-image: url(./../../../assets/images/e-learning.png);
+  background-size: cover;
+  background-position: 50% 50%; */
+}
+
+

@@ -1,0 +1,294 @@
+:root {
+  --button-medium-font-family: "Poppins", Helvetica;
+  --button-medium-font-weight: 500;
+  --button-medium-font-size: 14px;
+  --button-medium-letter-spacing: 0.4000000059604645px;
+  --button-medium-line-height: 24px;
+  --button-medium-font-style: normal;
+  --elevation-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  --elevation-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  --palette-primary-contrast: rgba(255, 255, 255, 1);
+  --palette-primary-main: var(--material-colors-blue-500);
+  --palette-primary-dark: var(--material-colors-blue-600);
+  --shape-borderradius: 4px;
+  --material-colors-blue-500: rgba(33, 150, 243, 1);
+  --material-colors-blue-200: rgba(144, 202, 249, 1);
+  --material-colors-blue-600: rgba(30, 136, 229, 1);
+  --material-colors-blue-400: rgba(66, 165, 245, 1);
+}
+
+:root {
+  --white-color: rgba(255, 255, 255, 1);
+  --secondary-color: rgba(1, 109, 90, 1);
+}
+
+:root {
+  --typography-body1-font-family: "Poppins", Helvetica;
+  --typography-body1-font-weight: 400;
+  --typography-body1-font-size: 16px;
+  --typography-body1-letter-spacing: 0.15000000596046448px;
+  --typography-body1-line-height: 150%;
+  --typography-body1-font-style: normal;
+}
+
+/*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-palette-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+
+[data-palette-mode="light"] {
+  --palette-primary-contrast: rgba(255, 255, 255, 1);
+  --palette-primary-main: var(--material-colors-blue-500);
+  --palette-primary-dark: var(--material-colors-blue-600);
+}
+
+[data-palette-mode="dark"] {
+  --palette-primary-contrast: rgba(0, 0, 0, 0.87);
+  --palette-primary-main: var(--material-colors-blue-200);
+  --palette-primary-dark: var(--material-colors-blue-400);
+}
+
+:root {
+  --white-color: rgba(255, 255, 255, 1);
+  --secondary-color: rgba(1, 109, 90, 1);
+  --typography-body1-font-family: "Roboto-Regular", Helvetica;
+  --typography-body1-font-weight: 400;
+  --typography-body1-font-size: 16px;
+  --typography-body1-letter-spacing: 0.15000000596046448px;
+  --typography-body1-line-height: 150%;
+  --typography-body1-font-style: normal;
+  --sizing-1: 8px;
+  --sizing-2: 16px;
+  --palette-text-primary: rgba(0, 0, 0, 0.87);
+  --palette-action-hover: rgba(0, 0, 0, 0.04);
+  --shape-borderradius: 4px;
+  --shape-none: 0px;
+}
+
+/*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-palette-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+
+[data-palette-mode="light"] {
+  --palette-text-primary: rgba(0, 0, 0, 0.87);
+  --palette-action-hover: rgba(0, 0, 0, 0.04);
+}
+
+[data-palette-mode="dark"] {
+  --palette-text-primary: rgba(255, 255, 255, 1);
+  --palette-action-hover: rgba(255, 255, 255, 0.08);
+}
+
+:root {
+  --white-color: rgba(255, 255, 255, 1);
+  --input-value-font-family: "Roboto-Regular", Helvetica;
+  --input-value-font-weight: 400;
+  --input-value-font-size: 16px;
+  --input-value-letter-spacing: 0.15000000596046448px;
+  --input-value-line-height: 24px;
+  --input-value-font-style: normal;
+  --input-label-font-family: "Roboto-Regular", Helvetica;
+  --input-label-font-weight: 400;
+  --input-label-font-size: 12px;
+  --input-label-letter-spacing: 0.15000000596046448px;
+  --input-label-line-height: 12px;
+  --input-label-font-style: normal;
+  --button-medium-font-family: "Roboto-Medium", Helvetica;
+  --button-medium-font-weight: 500;
+  --button-medium-font-size: 14px;
+  --button-medium-letter-spacing: 0.4000000059604645px;
+  --button-medium-line-height: 24px;
+  --button-medium-font-style: normal;
+  --typography-body1-font-family: "Roboto-Regular", Helvetica;
+  --typography-body1-font-weight: 400;
+  --typography-body1-font-size: 16px;
+  --typography-body1-letter-spacing: 0.15000000596046448px;
+  --typography-body1-line-height: 150%;
+  --typography-body1-font-style: normal;
+  --input-helper-font-family: "Roboto-Regular", Helvetica;
+  --input-helper-font-weight: 400;
+  --input-helper-font-size: 12px;
+  --input-helper-letter-spacing: 0.4000000059604645px;
+  --input-helper-line-height: 165.9999966621399%;
+  --input-helper-font-style: normal;
+  --elevation-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  --elevation-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  --palette-text-primary: rgba(0, 0, 0, 0.87);
+  --palette-primary-main: var(--material-colors-blue-500);
+  --palette-primary-contrast: rgba(255, 255, 255, 1);
+  --palette-background-paper-elevation-0: rgba(255, 255, 255, 1);
+  --palette-text-secondary: rgba(0, 0, 0, 0.6);
+  --palette-primary-hover: rgba(33, 150, 243, 0.04);
+  --palette-primary-dark: var(--material-colors-blue-600);
+  --material-colors-blue-500: rgba(33, 150, 243, 1);
+  --material-colors-blue-200: rgba(144, 202, 249, 1);
+  --material-colors-blue-600: rgba(30, 136, 229, 1);
+  --material-colors-blue-400: rgba(66, 165, 245, 1);
+  --shape-borderradius: 4px;
+}
+
+/*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-palette-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+
+[data-palette-mode="light"] {
+  --palette-text-primary: rgba(0, 0, 0, 0.87);
+  --palette-primary-main: var(--material-colors-blue-500);
+  --palette-primary-contrast: rgba(255, 255, 255, 1);
+  --palette-background-paper-elevation-0: rgba(255, 255, 255, 1);
+  --palette-text-secondary: rgba(0, 0, 0, 0.6);
+  --palette-primary-hover: rgba(33, 150, 243, 0.04);
+  --palette-primary-dark: var(--material-colors-blue-600);
+}
+
+[data-palette-mode="dark"] {
+  --palette-text-primary: rgba(255, 255, 255, 1);
+  --palette-primary-main: var(--material-colors-blue-200);
+  --palette-primary-contrast: rgba(0, 0, 0, 0.87);
+  --palette-background-paper-elevation-0: rgba(18, 18, 18, 1);
+  --palette-text-secondary: rgba(255, 255, 255, 0.7);
+  --palette-primary-hover: rgba(144, 202, 249, 0.08);
+  --palette-primary-dark: var(--material-colors-blue-400);
+}
+
+:root {
+  --primary-color: rgba(0, 147, 121, 1);
+  --white-color: rgba(255, 255, 255, 1);
+}
+
+:root {
+  --primary-color: rgba(0, 147, 121, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --typography-body1-font-family: "Roboto-Regular", Helvetica;
+  --typography-body1-font-weight: 400;
+  --typography-body1-font-size: 16px;
+  --typography-body1-letter-spacing: 0.15000000596046448px;
+  --typography-body1-line-height: 150%;
+  --typography-body1-font-style: normal;
+  --input-value-font-family: "Roboto-Regular", Helvetica;
+  --input-value-font-weight: 400;
+  --input-value-font-size: 16px;
+  --input-value-letter-spacing: 0.15000000596046448px;
+  --input-value-line-height: 24px;
+  --input-value-font-style: normal;
+  --input-helper-font-family: "Roboto-Regular", Helvetica;
+  --input-helper-font-weight: 400;
+  --input-helper-font-size: 12px;
+  --input-helper-letter-spacing: 0.4000000059604645px;
+  --input-helper-line-height: 165.9999966621399%;
+  --input-helper-font-style: normal;
+  --chip-label-font-family: "Roboto-Regular", Helvetica;
+  --chip-label-font-weight: 400;
+  --chip-label-font-size: 13px;
+  --chip-label-letter-spacing: 0.1599999964237213px;
+  --chip-label-line-height: 18px;
+  --chip-label-font-style: normal;
+  --typography-caption-font-family: "Roboto-Regular", Helvetica;
+  --typography-caption-font-weight: 400;
+  --typography-caption-font-size: 12px;
+  --typography-caption-letter-spacing: 0.4000000059604645px;
+  --typography-caption-line-height: 165.9999966621399%;
+  --typography-caption-font-style: normal;
+  --typography-h6-font-family: "Roboto-Medium", Helvetica;
+  --typography-h6-font-weight: 500;
+  --typography-h6-font-size: 20px;
+  --typography-h6-letter-spacing: 0.15000000596046448px;
+  --typography-h6-line-height: 160.0000023841858%;
+  --typography-h6-font-style: normal;
+  --button-medium-font-family: "Roboto-Medium", Helvetica;
+  --button-medium-font-weight: 500;
+  --button-medium-font-size: 14px;
+  --button-medium-letter-spacing: 0.4000000059604645px;
+  --button-medium-line-height: 24px;
+  --button-medium-font-style: normal;
+  --elevation-24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  --palette-text-primary: rgba(0, 0, 0, 0.87);
+  --palette-text-secondary: rgba(0, 0, 0, 0.6);
+  --palette-components-input-outlined-enabledborder: rgba(0, 0, 0, 0.23);
+  --palette-background-paper-elevation-24: rgba(255, 255, 255, 1);
+  --palette-components-input-outlined-hoverborder: rgba(0, 0, 0, 1);
+  --palette-action-selected: rgba(0, 0, 0, 0.08);
+  --palette-components-chip-defaulthoverfill: rgba(0, 0, 0, 0.12);
+  --palette-background-paper-elevation-0: rgba(255, 255, 255, 1);
+  --palette-components-avatar-fill: var(--material-colors-grey-400);
+  --palette-success-main: var(--material-colors-green-800);
+  --palette-primary-main: var(--material-colors-blue-500);
+  --palette-primary-hover: rgba(33, 150, 243, 0.04);
+  --shape-borderradius: 4px;
+  --material-colors-grey-400: rgba(189, 189, 189, 1);
+  --material-colors-grey-600: rgba(117, 117, 117, 1);
+  --material-colors-green-800: rgba(46, 125, 50, 1);
+  --material-colors-green-400: rgba(102, 187, 106, 1);
+  --material-colors-blue-500: rgba(33, 150, 243, 1);
+  --material-colors-blue-200: rgba(144, 202, 249, 1);
+}
+
+/*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-palette-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+
+[data-palette-mode="light"] {
+  --palette-text-primary: rgba(0, 0, 0, 0.87);
+  --palette-text-secondary: rgba(0, 0, 0, 0.6);
+  --palette-components-input-outlined-enabledborder: rgba(0, 0, 0, 0.23);
+  --palette-background-paper-elevation-24: rgba(255, 255, 255, 1);
+  --palette-components-input-outlined-hoverborder: rgba(0, 0, 0, 1);
+  --palette-action-selected: rgba(0, 0, 0, 0.08);
+  --palette-components-chip-defaulthoverfill: rgba(0, 0, 0, 0.12);
+  --palette-background-paper-elevation-0: rgba(255, 255, 255, 1);
+  --palette-components-avatar-fill: var(--material-colors-grey-400);
+  --palette-success-main: var(--material-colors-green-800);
+  --palette-primary-main: var(--material-colors-blue-500);
+  --palette-primary-hover: rgba(33, 150, 243, 0.04);
+}
+
+[data-palette-mode="dark"] {
+  --palette-text-primary: rgba(255, 255, 255, 1);
+  --palette-text-secondary: rgba(255, 255, 255, 0.7);
+  --palette-components-input-outlined-enabledborder: rgba(255, 255, 255, 0.23);
+  --palette-background-paper-elevation-24: rgba(56, 56, 56, 1);
+  --palette-components-input-outlined-hoverborder: rgba(255, 255, 255, 1);
+  --palette-action-selected: rgba(255, 255, 255, 0.16);
+  --palette-components-chip-defaulthoverfill: rgba(255, 255, 255, 0.12);
+  --palette-background-paper-elevation-0: rgba(18, 18, 18, 1);
+  --palette-components-avatar-fill: var(--material-colors-grey-600);
+  --palette-success-main: var(--material-colors-green-400);
+  --palette-primary-main: var(--material-colors-blue-200);
+  --palette-primary-hover: rgba(144, 202, 249, 0.08);
+}

@@ -1,0 +1,156 @@
+.box {
+  position: relative;
+  width: 1223px;
+  height: 763px;
+}
+
+.box .accordion-summary {
+  width: 1223px;
+  height: fit-content;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.box .accordion-expand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.box .icon-button {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 100px;
+  overflow: hidden;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.box .icon {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.box .expand-more-filled {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.accordion {
+  /* background-color: #eee; */
+  /* color: #444; */
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px -1px #00000033, 0px 1px 1px #00000024,
+    0px 1px 3px #0000001f;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion-details {
+  display: flex;
+  flex-direction: column;
+  height: 187px;
+  align-items: flex-start;
+  padding: var(--sizing-1) var(--sizing-2) var(--sizing-2) var(--sizing-2);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.list-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -7px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.list-item-wrapper {
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  top: 20px;
+  left: 20px;
+}
+
+.list-item-2 {
+  position: relative;
+  height: 30px;
+}
+
+.text-wrapper-2 {
+  position: absolute;
+  top: 3px;
+  left: 53px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.25px;
+  line-height: 22.2px;
+  white-space: nowrap;
+}
+
+.face {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.property-5 {
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  top: 70px;
+  left: 20px;
+}
+
+.property-6 {
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  top: 120px;
+  left: 20px;
+}

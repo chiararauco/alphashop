@@ -1,0 +1,392 @@
+.classi-disponibili {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.classi-disponibili .div {
+  background-color: #ededed;
+  width: 1440px;
+  height: 1225px;
+  position: relative;
+}
+
+.classi-disponibili .divider {
+  position: absolute;
+  width: 1223px;
+  height: 101px;
+  top: 263px;
+  left: 105px;
+  overflow: hidden;
+}
+
+.classi-disponibili .divider-horizontal {
+  display: flex;
+  flex-direction: column;
+  width: 1276px;
+  height: 3px;
+  align-items: flex-start;
+  position: relative;
+  top: 51px;
+  background-color: #d9d9d9;
+}
+
+.classi-disponibili .min-height {
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.classi-disponibili .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.classi-disponibili .overlap-group {
+  position: absolute;
+  width: 1317px;
+  height: 819px;
+  top: 364px;
+  left: 105px;
+  border-radius: 5px;
+}
+
+.classi-disponibili .accordion-summary {
+  position: absolute;
+  width: 1317px;
+  height: 819px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.classi-disponibili .property-default {
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .container {
+  display: flex;
+  height: 68px;
+  align-items: center;
+  padding: 0px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.classi-disponibili .typography {
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.classi-disponibili .body {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--typography-body1-font-family);
+  font-weight: var(--typography-body1-font-weight);
+  color: var(--palette-text-primary);
+  font-size: var(--typography-body1-font-size);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+  white-space: nowrap;
+  font-style: var(--typography-body1-font-style);
+}
+
+.classi-disponibili .accordion-expand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.classi-disponibili .icon-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.classi-disponibili .icon {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.classi-disponibili .img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.classi-disponibili .property {
+  top: 89px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .property-variant {
+  top: 158px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .container-wrapper {
+  top: 730px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .div-wrapper {
+  top: 454px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .property-2 {
+  top: 523px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .property-3 {
+  top: 592px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .property-4 {
+  top: 661px;
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 68px;
+  align-items: flex-start;
+  position: absolute;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-right: -42px;
+  font-family: var(--typography-body1-font-family);
+  font-weight: var(--typography-body1-font-weight);
+  color: var(--palette-text-primary);
+  font-size: var(--typography-body1-font-size);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+  white-space: nowrap;
+  font-style: var(--typography-body1-font-style);
+}
+
+.classi-disponibili .accordion-summary-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1277px;
+  height: 227px;
+  align-items: flex-start;
+  position: absolute;
+  top: 227px;
+  /* left: 20px; */
+  background-color: var(--palette-background-paper-elevation-1);
+  border-radius: var(--shape-borderradius) var(--shape-borderradius)
+    var(--shape-none) var(--shape-none);
+  box-shadow: var(--elevation-1);
+}
+
+.classi-disponibili .container-2 {
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.classi-disponibili .accordion-details {
+  display: flex;
+  flex-direction: column;
+  height: 187px;
+  align-items: flex-start;
+  padding: var(--sizing-1) var(--sizing-2) var(--sizing-2) var(--sizing-2);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.classi-disponibili .list-item {
+  position: relative;
+  width: 187px;
+  height: 170px;
+  margin-bottom: -7px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.classi-disponibili .list-item-wrapper {
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  top: 20px;
+  left: 20px;
+}
+
+.classi-disponibili .list-item-2 {
+  position: relative;
+  height: 30px;
+}
+
+.classi-disponibili .text-wrapper-2 {
+  position: absolute;
+  top: 3px;
+  left: 53px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.25px;
+  line-height: 22.2px;
+  white-space: nowrap;
+}
+
+.classi-disponibili .face {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.classi-disponibili .property-5 {
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  top: 70px;
+  left: 20px;
+}
+
+.classi-disponibili .property-6 {
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  top: 120px;
+  left: 20px;
+}
+
+.classi-disponibili .title-card {
+  position: absolute;
+  width: 1277px;
+  height: 205px;
+  top: 57px;
+  left: 81px;
+  background-color: #4cd964;
+  border-radius: 10px;
+}
+
+.classi-disponibili .text-wrapper-3 {
+  position: absolute;
+  top: 89px;
+  left: 72px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.classi-disponibili .school {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 60px;
+  left: 230px;
+}
+
+.accordion-container {
+  position: absolute;
+  width: 1223px;
+  height: 101px;
+  top: 370px;
+  left: 105px;
+}

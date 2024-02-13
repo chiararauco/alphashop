@@ -1,40 +1,175 @@
-.login-container{
-    margin-top: 3%;
-    margin-bottom: 5%;
-    margin-left: 35%;
-    max-width: 1100px;
-  }
-  .login-form{
-    padding: 7%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
-  }
-  .login-form h3{
-    text-align: center;
-    color: #333;
-  }
-  .login-container form{
-    padding: 5%;
-  }
-  .btnSubmit
-  {
-    width: 40%;
-    border-radius: 0.5rem;
-    padding: 1.5%;
-    border: none;
-    cursor: pointer;
-  }
-  .login-form .btnSubmit{
-    font-weight: 600;
-    color: #fff;
-    background-color: #0062cc;
-  }
-  .login-form .ForgetPwd{
-    color: #0062cc;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  
-  .form-group {
-    margin-top: 3%;
-  }
-  
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 1440px;
+  height: 680px;
+}
+
+.login .overlap-group {
+  position: relative;
+  height: 680px;
+  left: 1px;
+  background-image: url(./../../../assets/images/2019-cyber-range.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.login .login-form {
+  position: absolute;
+  width: 354px;
+  height: 324px;
+  top: 296px;
+  left: 1003px;
+}
+
+.login .text-wrapper {
+  position: absolute;
+  width: 215px;
+  top: -1px;
+  left: 13px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .div {
+  position: absolute;
+  width: 246px;
+  top: 169px;
+  left: 14px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .text-wrapper-2 {
+  position: absolute;
+  width: 246px;
+  top: 249px;
+  left: 17px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #2196f3;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .text-wrapper-3 {
+  position: absolute;
+  width: 246px;
+  top: 68px;
+  left: 14px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .rectangle {
+  top: 95px;
+  position: absolute;
+  width: 328px;
+  height: 47px;
+  left: 14px;
+  background-color: #ffffff;
+  border-radius: 11px;
+}
+
+.login .rectangle-2 {
+  top: 197px;
+  position: absolute;
+  width: 328px;
+  height: 47px;
+  left: 14px;
+  background-color: #ffffff;
+  border-radius: 11px;
+}
+
+.login .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 125px;
+  height: 33px;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  position: absolute;
+  top: 284px;
+  left: 111px;
+  background-color: #2196f3;
+  border-radius: var(--shape-borderradius);
+  overflow: hidden;
+  box-shadow: var(--elevation-2);
+}
+
+.login .base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1.5px;
+  margin-bottom: -1.5px;
+}
+
+.login .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-medium-font-family);
+  font-weight: var(--button-medium-font-weight);
+  color: var(--palette-primary-contrast);
+  font-size: var(--button-medium-font-size);
+  letter-spacing: var(--button-medium-letter-spacing);
+  line-height: var(--button-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--button-medium-font-style);
+}
+
+.login .text-wrapper-4 {
+  position: absolute;
+  width: 745px;
+  top: 72px;
+  left: 73px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #c2c2c2;
+  font-size: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .p {
+  position: absolute;
+  width: 332px;
+  top: 172px;
+  left: 95px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #c2c2c2;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
