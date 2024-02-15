@@ -1,4 +1,4 @@
-.corsi-disponibili {
+.available-classes-student {
   background-color: #ededed;
   display: flex;
   flex-direction: row;
@@ -6,14 +6,14 @@
   width: 100%;
 }
 
-.corsi-disponibili .div {
+.available-classes-student .div {
   background-color: #ededed;
   width: 1440px;
   height: 1220px;
   position: relative;
 }
 
-.corsi-disponibili .divider {
+.available-classes-student .divider {
   position: absolute;
   width: 1223px;
   height: 88px;
@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 
-.corsi-disponibili .divider-horizontal {
+.available-classes-student .divider-horizontal {
   display: flex;
   flex-direction: column;
   width: 1276px;
@@ -33,13 +33,13 @@
   background-color: #d9d9d9;
 }
 
-.corsi-disponibili .min-height {
+.available-classes-student .min-height {
   position: relative;
   width: 1px;
   height: 1px;
 }
 
-.corsi-disponibili .img {
+.available-classes-student .img {
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -47,7 +47,7 @@
   object-fit: cover;
 }
 
-.corsi-disponibili .add-button {
+.available-classes-student .add-button {
   position: absolute;
   width: 288px;
   height: 78px;
@@ -57,7 +57,7 @@
   background: transparent;
 }
 
-.corsi-disponibili .add-circle-outline {
+.available-classes-student .add-circle-outline {
   position: absolute;
   width: 28px;
   height: 28px;
@@ -65,7 +65,7 @@
   left: 230px;
 }
 
-.corsi-disponibili .text-wrapper {
+.available-classes-student .text-wrapper {
   position: absolute;
   height: 24px;
   top: 37px;
@@ -80,7 +80,7 @@
   white-space: nowrap;
 }
 
-.corsi-disponibili .card-scorrevoli {
+.available-classes-student .card-scorrevoli {
   position: absolute;
   width: 1269px;
   height: 740px;
@@ -92,7 +92,7 @@
   border-color: #9747ff;
 }
 
-.corsi-disponibili .property-default {
+.available-classes-student .property-default {
   top: 20px;
   position: absolute;
   width: 1223px;
@@ -104,19 +104,7 @@
   padding: 10px;
 }
 
-.corsi-disponibili .text-wrapper-2 {
-  top: 19px;
-  left: 25px;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #20b2aa;
-  font-size: 19px;
-  letter-spacing: 0.15px;
-  line-height: 13px;
-  white-space: nowrap;
-}
-
-.corsi-disponibili .property {
+.available-classes-student .property {
   padding: 10px;
   top: 380px;
   position: absolute;
@@ -128,18 +116,18 @@
   overflow: hidden;
 }
 
-.corsi-disponibili .frame {
+.available-classes-student .frame {
   position: absolute;
-  width: 1273px;
+  width: 1277px;
   height: 205px;
-  top: 118px;
-  left: 85px;
-  background-color: #3164f4;
+  top: 65px;
+  left: 78px;
+  background-color: #ff9500;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.corsi-disponibili .intestazione-card {
+.available-classes-student .intestazione-card {
   position: relative;
   width: 736px;
   height: 160px;
@@ -147,7 +135,7 @@
   left: 22px;
 }
 
-.corsi-disponibili .text-wrapper-4 {
+.available-classes-student .text-wrapper-4 {
   position: absolute;
   width: 402px;
   top: 35px;
@@ -160,7 +148,7 @@
   line-height: 24px;
 }
 
-.corsi-disponibili .local-library-wrapper {
+.available-classes-student .local-library-wrapper {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -170,7 +158,7 @@
   background-size: 100% 100%;
 }
 
-.corsi-disponibili .local-library {
+.available-classes-student .local-library {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -178,7 +166,7 @@
   left: 0;
 }
 
-.corsi-disponibili .text-wrapper-5 {
+.available-classes-student .text-wrapper-5 {
   position: absolute;
   width: 602px;
   top: 82px;
@@ -189,6 +177,52 @@
   font-size: 20px;
   letter-spacing: 0.15px;
   line-height: 24px;
+}
+
+.available-classes-student .text-wrapper {
+  position: absolute;
+  width: 602px;
+  top: 124px;
+  left: 51px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}
+
+.available-classes-student .text-wrapper-2 {
+  position: absolute;
+  top: 73px;
+  left: 52px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.available-classes-student .groups {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 40px;
+  left: 495px;
+}
+
+.available-classes-student .text-wrapper-title-card {
+  top: 19px;
+  left: 25px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ff9500;
+  font-size: 19px;
+  letter-spacing: 0.15px;
+  line-height: 13px;
+  white-space: nowrap;
 }
 
 /*  */

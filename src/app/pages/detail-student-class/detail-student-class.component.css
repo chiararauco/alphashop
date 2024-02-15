@@ -1,0 +1,543 @@
+.classi-disponibili {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.classi-disponibili .div {
+  background-color: #ededed;
+  width: 1440px;
+  height: 1450px;
+  position: relative;
+}
+
+.classi-disponibili .divider {
+  position: absolute;
+  width: 1223px;
+  height: 101px;
+  top: 281px;
+  left: 105px;
+  overflow: hidden;
+}
+
+.classi-disponibili .divider-horizontal {
+  display: flex;
+  flex-direction: column;
+  width: 1276px;
+  height: 3px;
+  align-items: flex-start;
+  position: relative;
+  top: 51px;
+  background-color: #d9d9d9;
+}
+
+.classi-disponibili .min-height {
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.classi-disponibili .img {
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.classi-disponibili .frame {
+  position: absolute;
+  width: 1277px;
+  height: 205px;
+  top: 65px;
+  left: 78px;
+  background-color: #ff9500;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5%;
+}
+
+.classi-disponibili .text-wrapper-2 {
+  top: 73px;
+  left: 52px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  white-space: nowrap;
+  margin-left: 1%;
+  margin-top: 22px;
+}
+
+.classi-disponibili .groups {
+  width: 70px;
+  height: 70px;
+  top: 40px;
+  left: 495px;
+}
+
+.accordion-container {
+  position: absolute;
+  width: 1223px;
+  height: 101px;
+  top: 370px;
+  left: 105px;
+}
+
+.box {
+  padding: 10px;
+  position: absolute;
+  width: 1223px;
+  height: 350px;
+  top: 370px;
+  left: 105px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.exclamation-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 3%;
+}
+.description-container {
+  margin-top: 5%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+  color: #ff9500;
+}
+
+.title-2 {
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.info-box {
+  padding: 30px;
+  position: absolute;
+  width: 1223px;
+  height: fit-content;
+  top: 735px;
+  left: 105px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+/* infprmation box */
+.corso-host-security {
+  color: #ff9500;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  margin-bottom: 2px;
+  min-width: 648px;
+  white-space: nowrap;
+}
+
+.di-seguito-le-inform {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  margin-left: 106px;
+  margin-top: 11px;
+  width: 382px;
+}
+
+.overlap-group2 {
+  align-self: center;
+  border-radius: 5px;
+  height: 865px;
+  margin-top: 47px;
+  position: relative;
+  width: 929px;
+}
+
+.frame-7 {
+  align-items: center;
+  /* border: 1px dashed;
+  border-color: #9747ff; */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  left: 0;
+  overflow: hidden;
+  padding: 20px 15px;
+  /* position: absolute; */
+  width: fit-content;
+  margin-left: 3%;
+}
+
+.property-1-default {
+  gap: 218px;
+  /* height: 56px; */
+}
+
+.titolo {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 59px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.classe {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant2 {
+  gap: 167px;
+  /* height: 56px; */
+}
+
+.sommario {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 110px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.segui-le-nuove-lezioni {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant3 {
+  gap: 56px;
+  /* height: 65px; */
+}
+
+.descrizione-sorgente {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 221px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.lezioni-aggiornate-2024 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant4 {
+  gap: 74px;
+  /* height: 56px; */
+}
+
+.data-inizio-prevista {
+  min-width: 203px;
+  font-weight: bold;
+}
+
+.domenica-02-febbraio-2024-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant5 {
+  gap: 61px;
+  /* height: 56px; */
+}
+
+.data-inizio-iscrizione {
+  min-width: 216px;
+  font-weight: bold;
+}
+
+.domenica-02-febbraio-2024-0100-1 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant6 {
+  gap: 77px;
+  /* height: 56px; */
+}
+
+.data-fine-iscrizione {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 200px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.gioved-12-febbraio-2024-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant7 {
+  gap: 166px;
+  /* height: 56px; */
+}
+
+.data-inizio {
+  min-width: 111px;
+  font-weight: bold;
+}
+
+.lunedi-03-febbrazio-2023-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant8 {
+  gap: 182px;
+  /* height: 56px; */
+}
+
+.data-fine {
+  min-width: 95px;
+  font-weight: bold;
+}
+
+.sabato-29-febbrazio-2023-0100 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant9 {
+  gap: 215px;
+  /* height: 56px; */
+}
+
+.corso {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 62px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.number {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant10 {
+  gap: 163px;
+  /* height: 56px; */
+}
+
+.insegnanti {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 114px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.istruttore-1 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.property-1-variant11 {
+  gap: 187px;
+  /* height: 56px; */
+}
+.property-1-variant12 {
+  gap: 187px;
+  height: fit-content;
+}
+
+.studenti {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  min-width: 90px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.stelmilit13 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  width: 468px;
+}
+
+.data {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  white-space: nowrap;
+}
+
+.data-inizio-1 {
+  letter-spacing: 0.25px;
+  line-height: 24.7px;
+  min-height: 25px;
+  white-space: nowrap;
+}
+
+.property-1 {
+  align-items: center;
+  display: flex;
+  /* padding: 14px 10px; */
+  /* width: 889px; */
+}
+.property-2 {
+  align-items: flex-start;
+  display: flex;
+  padding: 14px 10px;
+  width: 889px;
+  justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-container {
+  position: absolute;
+  width: 260px;
+  height: 50px;
+  top: 1277px;
+  left: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 25px;
+  background: #3164f4;
+  padding: 5px 25px;
+  margin-top: 2%;
+}
+
+.pen-icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 1%;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+}
+
+/* dialog */
+
+.dialog-title {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.submit-button {
+  width: 120px;
+  height: 36px;
+  background: #4cd964;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 2%;
+}
+
+.cancel-button {
+  width: 120px;
+  height: 36px;
+  background: #ff6250;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.dialog-container {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-dialog-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.exclamation-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.dialog-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

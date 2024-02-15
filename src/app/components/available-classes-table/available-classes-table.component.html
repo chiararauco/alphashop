@@ -10,32 +10,23 @@
     <table class="table">
         <tbody>
             <tr *ngFor="let item of tableData">
-                <ng-container *ngIf="item.category === 'Classi Disponibili'">
+                <ng-container *ngIf="item.category === selectedTab">
                     <div class="td-container">
                         <td class="td">{{ item.name }}</td>
-                        <button class="show-button">Mostra</button>
+                        <td *ngIf="item.category === 'Classi Disponibili'"><button class="show-button">Mostra</button>
+                        </td>
+                        <td *ngIf="item.category === 'Classi Concluse'"><button class="status-button">Status</button>
+                        </td>
+                        <td *ngIf="item.category === 'Classi in corso'">
+                            <button class="show-button">Mostra</button>
+                            <button class="status-button">Status</button>
+                        </td>
+                        <td *ngIf="item.category === 'Classi a cui sei iscritto'">
+                            <button class="show-button">Mostra</button>
+                            <button class="status-button">Status</button>
+                        </td>
                     </div>
                 </ng-container>
-                <!-- <ng-container *ngIf="item.category === 'Classi in corso'">
-                    <div class="td-container">
-                        <td class="td">{{ item.name }}</td>
-                        <button class="status-button">Status</button>
-                        <button class="show-button">Mostra</button>
-                    </div>
-                </ng-container>
-                <ng-container *ngIf="item.category === 'Classi Concluse'">
-                    <div class="td-container">
-                        <td class="td">{{ item.name }}</td>
-                        <button class="status-button">Status</button>
-                    </div>
-                </ng-container>
-                <ng-container *ngIf="item.category === 'Classi a cui sei iscritto'">
-                    <div class="td-container">
-                        <td class="td">{{ item.name }}</td>
-                        <button class="status-button">Status</button>
-                        <button class="show-button">Mostra</button>
-                    </div>
-                </ng-container> -->
             </tr>
         </tbody>
     </table>

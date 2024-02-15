@@ -33,6 +33,10 @@ import { DetailCourseComponent } from './pages/detail-course/detail-course.compo
 import { ListItemCoursesComponent } from './components/list-item-courses/list-item-courses.component';
 import { AvailableClassesComponent } from './pages/available-classes/available-classes.component';
 import { AvailableClassesTableComponent } from './components/available-classes-table/available-classes-table.component';
+import { DetailStudentClassComponent } from './pages/detail-student-class/detail-student-class.component';
+import { ScrollableCardsComponent } from './components/scrollable-cards/scrollable-cards.component';
+import { AvailableClassesStudentComponent } from './pages/available-classes-student/available-classes-student.component';
+import { ScrollableCardsClassesComponent } from './components/scrollable-cards-classes/scrollable-cards-classes.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +67,10 @@ import { AvailableClassesTableComponent } from './components/available-classes-t
     ListItemCoursesComponent,
     AvailableClassesComponent,
     AvailableClassesTableComponent,
+    DetailStudentClassComponent,
+    ScrollableCardsComponent,
+    AvailableClassesStudentComponent,
+    ScrollableCardsClassesComponent,
   ],
   imports: [
     BrowserModule,

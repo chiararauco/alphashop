@@ -18,6 +18,8 @@ import { GamesComponent } from './pages/games/games.component';
 import { DetailClassComponent } from './pages/detail-class/detail-class.component';
 import { DetailCourseComponent } from './pages/detail-course/detail-course.component';
 import { AvailableClassesComponent } from './pages/available-classes/available-classes.component';
+import { DetailStudentClassComponent } from './pages/detail-student-class/detail-student-class.component';
+import { AvailableClassesStudentComponent } from './pages/available-classes-student/available-classes-student.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent }, //componente da visualizzare se non ci sono pagine specifiche 
@@ -35,6 +37,8 @@ const routes: Routes = [
   { path: 'detail-class', component: DetailClassComponent },
   { path: 'detail-course', component: DetailCourseComponent },
   { path: 'available-classes', component: AvailableClassesComponent },
+  { path: 'detail-student-class', component: DetailStudentClassComponent },
+  { path: 'available-classes-student', component: AvailableClassesStudentComponent },
   // { path: 'welcome/:userid', component: WelcomeComponent, canActivate: [RouteGuardService] },
   // { path: 'logout', component: LogoutComponent },
   { path: '**', component: ErrorComponent } // componente che si visualizza quando una pagina non esiste

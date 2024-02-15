@@ -36,8 +36,14 @@ export class AvailableClassesTableComponent {
   // Inizialmente selezionata la prima scheda
   selectedTab: string = this.tabs[0];
 
+
   // Metodo per cambiare la scheda selezionata
   selectTab(tab: string): void {
     this.selectedTab = tab;
+
+  }
+
+  handleButtonClick(){
+    prompt('ciao')
   }
 }
