@@ -29,7 +29,7 @@
                             <p class="dialog-title">Sei sicuro di voler interrompere la sessione di gioco?</p>
                             <div class="button-container">
                                 <button autofocus class="interrompi-button">Interrompi</button>
-                                <button autofocus class="annulla-button">Annulla</button>
+                                <button autofocus class="annulla-button" (click)="closeDialog()">Annulla</button>
                             </div>
                         </div>
                     </dialog>
@@ -53,12 +53,12 @@
                             <p class="dialog-title">Sei sicuro di voler interrompere la sessione di gioco?</p>
                             <div class="button-container">
                                 <button autofocus class="interrompi-button">Interrompi</button>
-                                <button autofocus class="annulla-button">Annulla</button>
+                                <button autofocus class="annulla-button" (click)="closeDialog()">Annulla</button>
                             </div>
                         </div>
                     </dialog>
 
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -75,7 +75,7 @@
                         <button autofocus>Close</button>
                         <p>This modal dialog has a groovy backdrop!</p>
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -92,7 +92,7 @@
                         <button autofocus>Close</button>
                         <p>This modal dialog has a groovy backdrop!</p>
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -109,7 +109,7 @@
                         <button autofocus>Close</button>
                         <p>This modal dialog has a groovy backdrop!</p>
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -126,7 +126,7 @@
                         <button autofocus>Close</button>
                         <p>This modal dialog has a groovy backdrop!</p>
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -143,7 +143,7 @@
                         <button autofocus>Close</button>
                         <p>This modal dialog has a groovy backdrop!</p>
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -160,7 +160,7 @@
                         <button autofocus>Close</button>
                         <p>This modal dialog has a groovy backdrop!</p>
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -179,7 +179,7 @@
                         <button autofocus>Close</button>
 
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>
@@ -196,7 +196,7 @@
                         <button autofocus>Close</button>
                         <p>This modal dialog has a groovy backdrop!</p>
                     </dialog>
-                    <button class="stop-button"> <img class="stop-icon"
+                    <button class="stop-button" (click)="openDialog()"> <img class="stop-icon"
                             src="./../../../assets/font/stop-sign-svgrepo-com.svg" />
                     </button>
                 </td>

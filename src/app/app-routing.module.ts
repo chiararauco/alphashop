@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './pages/login/login.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
@@ -20,6 +20,9 @@ import { DetailCourseComponent } from './pages/detail-course/detail-course.compo
 import { AvailableClassesComponent } from './pages/available-classes/available-classes.component';
 import { DetailStudentClassComponent } from './pages/detail-student-class/detail-student-class.component';
 import { AvailableClassesStudentComponent } from './pages/available-classes-student/available-classes-student.component';
+import { DetailCourseExerciseComponent } from './pages/detail-course-exercise/detail-course-exercise.component';
+import { ShowResultsComponent } from './pages/show-results/show-results.component';
+import { EditCourseComponent } from './pages/edit-course/edit-course.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent }, //componente da visualizzare se non ci sono pagine specifiche 
@@ -39,6 +42,10 @@ const routes: Routes = [
   { path: 'available-classes', component: AvailableClassesComponent },
   { path: 'detail-student-class', component: DetailStudentClassComponent },
   { path: 'available-classes-student', component: AvailableClassesStudentComponent },
+  { path: 'detail-course-exercise', component: DetailCourseExerciseComponent },
+  { path: 'show-results', component: ShowResultsComponent },
+  { path: 'edit-course', component: EditCourseComponent },
+
   // { path: 'welcome/:userid', component: WelcomeComponent, canActivate: [RouteGuardService] },
   // { path: 'logout', component: LogoutComponent },
   { path: '**', component: ErrorComponent } // componente che si visualizza quando una pagina non esiste

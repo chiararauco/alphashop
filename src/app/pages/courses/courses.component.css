@@ -49,12 +49,15 @@
 
 .corsi-disponibili .add-button {
   position: absolute;
-  width: 288px;
+  width: fit-content;
   height: 78px;
-  top: 32px;
-  left: 1070px;
+  top: 39px;
+  left: 1150px;
   border: none;
   background: transparent;
+  font-size: larger;
+  font-weight: bold;
+  color: #3164f4;
 }
 
 .corsi-disponibili .add-circle-outline {

@@ -264,6 +264,9 @@
   display: flex;
   gap: 6px;
   min-width: 246px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .mostra-corso .primary-button {
@@ -274,12 +277,12 @@
   cursor: pointer;
   display: flex;
   gap: 8px;
-  height: 40px;
+  height: 35px;
   justify-content: center;
   padding: 12px 20px;
   position: relative;
   transition: all 0.3s ease;
-  width: 120px;
+  width: 110px;
   color: white;
 }
 
@@ -311,12 +314,12 @@
   cursor: pointer;
   display: flex;
   gap: 8px;
-  height: 40px;
+  height: 35px;
   justify-content: center;
   padding: 12px 20px;
   position: relative;
   transition: all 0.3s ease;
-  width: 120px;
+  width: 110px;
 }
 
 .mostra-corso .primary-button-1:hover {

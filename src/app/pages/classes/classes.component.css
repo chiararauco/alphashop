@@ -13,13 +13,27 @@
   position: relative;
 }
 
+.classi-disponibili .add-button {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  top: 35px;
+  left: 1141px;
+  border: none;
+  background: transparent;
+  font-size: larger;
+  font-weight: bold;
+  color: #ff9500;
+}
+
 .classi-disponibili .divider {
   position: absolute;
-  width: 1223px;
-  height: 101px;
-  top: 281px;
+  width: 87%;
+  height: fit-content;
+  top: 325px;
   left: 105px;
   overflow: hidden;
+  background: lightgray;
 }
 
 .classi-disponibili .divider-horizontal {
@@ -51,7 +65,7 @@
   position: absolute;
   width: 1277px;
   height: 205px;
-  top: 65px;
+  top: 82px;
   left: 78px;
   background-color: #ff9500;
   border-radius: 10px;

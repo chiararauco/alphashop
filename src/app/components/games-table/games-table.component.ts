@@ -8,7 +8,7 @@ import { Component, ElementRef } from '@angular/core';
 })
 export class GamesTableComponent {
 
-  constructor(private elRef: ElementRef, 
+  constructor(private elRef: ElementRef,
   ) { }
 
   ngOnInit(): void {
@@ -31,12 +31,19 @@ export class GamesTableComponent {
   ngAfterViewInit(): void {
     this.setupPagination();
   }
+  closeDialog(): void {
+    const dialog = document.querySelector('dialog');
+    if (dialog) {
+      dialog.close();
+    }
+  }
 
-  //dialog functionalities
-
-  // ngOnInit(): void {
-  
-  // }
+  openDialog(): void {
+    const dialog = document.querySelector('dialog');
+    if (dialog) {
+      dialog.showModal();
+    }
+  }
 
   setupPagination(): void {
     const table = this.elRef.nativeElement.querySelector('#table-id');

@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import {  Router } from '@angular/router';
 
 @Component({
   selector: 'app-accordion-classes',
@@ -6,6 +7,8 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./accordion-classes.component.css']
 })
 export class AccordionClassesComponent implements AfterViewInit {
+
+  constructor(private router: Router){}
   @ViewChild('accordions') accordions!: ElementRef;
 
   ngAfterViewInit(): void {
@@ -21,5 +24,13 @@ export class AccordionClassesComponent implements AfterViewInit {
         }
       });
     });
+  }
+
+  editClass(){
+    this.router.navigate(['/'])
+  }
+
+  showClass(){
+    this.router.navigate(['/detail-class'])
   }
 }

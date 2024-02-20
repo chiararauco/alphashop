@@ -37,6 +37,11 @@ import { DetailStudentClassComponent } from './pages/detail-student-class/detail
 import { ScrollableCardsComponent } from './components/scrollable-cards/scrollable-cards.component';
 import { AvailableClassesStudentComponent } from './pages/available-classes-student/available-classes-student.component';
 import { ScrollableCardsClassesComponent } from './components/scrollable-cards-classes/scrollable-cards-classes.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { DetailCourseExerciseComponent } from './pages/detail-course-exercise/detail-course-exercise.component';
+import { ShowResultsComponent } from './pages/show-results/show-results.component';
+import { VirtualCoachComponent } from './components/virtual-coach/virtual-coach.component';
+import { EditCourseComponent } from './pages/edit-course/edit-course.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +76,11 @@ import { ScrollableCardsClassesComponent } from './components/scrollable-cards-c
     ScrollableCardsComponent,
     AvailableClassesStudentComponent,
     ScrollableCardsClassesComponent,
+    SliderComponent,
+    DetailCourseExerciseComponent,
+    ShowResultsComponent,
+    VirtualCoachComponent,
+    EditCourseComponent,
   ],
   imports: [
     BrowserModule,

@@ -81,6 +81,7 @@
   background-color: white;
   display: none;
   overflow: hidden;
+  padding-bottom: 2%;
 }
 
 .button-container {
@@ -91,20 +92,19 @@
 }
 
 .edit-button {
-  width: 140px;
-  height: 40px;
+  width: 110px;
+  height: 35px;
   background-color: #ff9500;
   border-radius: 5px;
   border: none;
   color: white;
 }
 .show-button {
-  width: 140px;
-  height: 40px;
+  width: 110px;
+  height: 35px;
   background-color: var(--palette-primary-main);
   border-radius: 5px;
   border: none;
   color: white;
   margin-left: 1%;
 }
-

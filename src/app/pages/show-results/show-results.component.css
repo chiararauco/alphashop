@@ -1,0 +1,393 @@
+/* screen - mostra-risultati */
+
+.container-center-horizontal {
+  align-items: center;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  height: fit-content;
+  width: 100%;
+  padding: 5%;
+}
+
+.mostra-risultati {
+  align-items: center;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 1096px;
+  padding: 83px 111px;
+  width: 1440px;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5%;
+  min-height: fit-content;
+  height: fit-content;
+}
+
+.frame-5 {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 92%;
+  margin-bottom: 2%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.print-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.download-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.mostra-risultati .frame-5 {
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+  height: 108px;
+  margin-left: 41px;
+  padding: 40px 58px;
+  width: 100%;
+}
+
+.left-container {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3%;
+  border-right: 1px solid;
+}
+
+.mostra-risultati .title {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: xx-large;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  width: 795px;
+}
+
+.couse-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 4px;
+  height: 100%;
+  padding: 0 20px;
+  /* width: 1184px; */
+}
+
+.left-couse-body {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.right-couse-body {
+  width: 25%;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.sommario-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.21);
+}
+
+.questionario-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.21);
+}
+
+.esercitazione-container {
+  width: 100%;
+  height: 87%;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.21);
+}
+
+.sommario-subcontainer {
+  width: 32%;
+}
+
+.sommario-subcontainer-first {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-right: 1px solid;
+}
+
+.trophy {
+  width: 26px;
+  height: 26px;
+}
+
+.sommario-subcontainer-second {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid;
+  height: 100%;
+  padding: 0px 2%;
+}
+
+#questionario {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#esercitazione {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sommario-subcontainer-third {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 38%;
+  padding: 0px 4%;
+  height: 100%;
+}
+
+.graph-container {
+  width: 60%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item-container {
+  width: 40%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  margin-bottom: 3rem;
+}
+
+.trophy-2 {
+  width: 48px;
+  height: 48px;
+}
+
+.punteggio-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* stepper */
+.container-stepper {
+  width: 25%;
+}
+
+.step {
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  background-color: cream;
+}
+
+.v-stepper {
+  position: relative;
+  /*   visibility: visible; */
+}
+
+/* regular step */
+.step .circle {
+  background-color: white;
+  border: 3px solid gray;
+  border-radius: 100%;
+  width: 30px; /* +6 for border */
+  height: 30px;
+  display: inline-block;
+}
+
+.step .line {
+  top: 20px;
+  left: 14px;
+  /*   height: 120px; */
+  height: 100%;
+
+  position: absolute;
+  border-left: 3px solid gray;
+}
+
+.step.completed .circle {
+  visibility: visible;
+  background-color: rgb(6, 150, 215);
+  border-color: rgb(6, 150, 215);
+}
+
+.step.completed .line {
+  border-left: 3px solid rgb(6, 150, 215);
+}
+
+.step.active .circle {
+  visibility: visible;
+  border-color: rgb(6, 150, 215);
+}
+
+.step.empty .circle {
+  visibility: hidden;
+}
+
+.step.empty .line {
+  /*     visibility: hidden; */
+  /*   height: 150%; */
+  top: 0;
+  height: 150%;
+}
+
+.step:last-child .line {
+  border-left: 3px solid white;
+  z-index: -1; /* behind the circle to completely hide */
+}
+
+.content {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+/* codepen override */
+html * {
+  font-size: 15px !important;
+  color: #000 !important;
+  font-family: Arial !important;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+  padding: 3%;
+  align-items: center;
+}
+
+.right-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-container {
+    height: 60%;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 6%;
+  padding: 7%;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.21);
+}
+
+#circle-second-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-color: red;
+  width: 35px;
+  height: 35px;
+}
+
+#line-second-stepper {
+  background-color: red;
+  border-color: red;
+}
+.star-icon {
+  z-index: 100;
+}
+
+.second {
+  margin-top: 4%;
+}
+
+.third {
+  margin-top: 4%;
+}
+
+.container-stepper-second {
+  margin-left: 10%;
+}
+
+/*Scroll bar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

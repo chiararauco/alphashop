@@ -1,0 +1,14 @@
+<div class="slider-container">
+    <div class="slide">
+        <img [src]="slides[currentIndex].imageUrl" alt="Slide {{ currentIndex }}">
+        <!-- <div class="caption">{{ slides[currentIndex].caption }}</div> -->
+        <div *ngIf="isLastSlide()" class="caption"> <button class="showResult-button" (click)="goToResults()">Mostra Risultati</button>
+        </div>
+
+    </div>
+
+    <a class="prev" (click)="prevSlide()">&#10094;</a>
+    <a class="next" (click)="nextSlide()">&#10095;</a>
+
+    <!-- Bottone aggiuntivo che appare solo nell'ultima slide -->
+</div>

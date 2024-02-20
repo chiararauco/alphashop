@@ -49,7 +49,10 @@
               "src/styles.css",
               "src/assets/css/round.css"
             ],
-            "scripts": ["src/assets/js/bootstrap.bundle.min.js"]
+            "scripts": [
+              "src/assets/js/bootstrap.bundle.min.js",
+              "node_modules/chart.js/dist/Chart.js"
+            ]
           },
           "configurations": {
             "production": {

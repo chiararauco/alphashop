@@ -1,4 +1,5 @@
 import { Component, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 import { AuthappService } from 'src/services/authapp.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { AuthappService } from 'src/services/authapp.service';
 })
 export class HeaderComponent {
 
-  constructor(public basicAuth: AuthappService, private elRef: ElementRef) {
+  constructor(public basicAuth: AuthappService, private elRef: ElementRef, private router: Router) {
 
   }
 
@@ -27,5 +28,32 @@ export class HeaderComponent {
       dialog.close();
     });
     // this.addIdsToRows();
+  }
+
+  goToHome(){
+    this.router.navigate(['/homepage']);
+
+  }
+
+  goToPersonal() {
+    this.router.navigate(['/personal']);
+  }
+
+  goToClasses(){
+    this.router.navigate(['/classes']);
+  }
+
+  goToCourses(){
+    this.router.navigate(['/courses']);
+  }
+
+  goToStudents(){
+    this.router.navigate(['/students']);
+
+  }
+
+  goToGames(){
+    this.router.navigate(['/games']);
+
   }
 }

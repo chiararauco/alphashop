@@ -18,7 +18,7 @@
                 <div class="allievi-card">
                     <div class="overlap-group">
 
-                        <button class="primary-button">
+                        <button class="primary-button" (click)="goToStudentList()">
                             Vai </button>
                         <p class="text-wrapper-2">Controlla la lista degli allievi che frequentano le tue classi!</p>
                         <div class="text-wrapper-3">Lista</div>
@@ -61,14 +61,14 @@
                                 </div>
 
                                 <div class="button-container">
-                                    <button autofocus class="avanti-button">Avanti</button>
-                                    <button autofocus class="indietro-button">Indietro</button>
+                                    <button class="avanti-button" (click)="goToStudentStatus()">Avanti</button>
+                                    <button id="back-button" class="indietro-button"
+                                        (click)="closeDialog()">Indietro</button>
                                 </div>
                             </div>
                         </dialog>
 
-                        <button class="primary-button"> Vai
-                        </button>
+                        <button class="primary-button"> Vai </button>
                     </div>
                 </div>
             </div>

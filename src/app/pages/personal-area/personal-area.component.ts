@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-personal-area',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./personal-area.component.css']
 })
 export class PersonalAreaComponent {
+
+  constructor(private router: Router){}
 
 }

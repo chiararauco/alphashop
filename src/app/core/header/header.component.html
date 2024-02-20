@@ -1,13 +1,13 @@
 <div class="navbar">
     <img class="unavox-logo" src="./../../../assets/images/unavox logo.png" />
     <div class="text-wrapper">
-        <button class="nav-button">Home</button>
+        <button class="nav-button" (click)="goToHome()">Home</button>
     </div>
-    <div class="div"><button class="nav-button">Area Personale</button></div>
-    <div class="text-wrapper-2"><button class="nav-button">Classi</button></div>
-    <div class="text-wrapper-3"><button class="nav-button">Allievi</button></div>
-    <div class="text-wrapper-4"><button class="nav-button">Corsi</button></div>
-    <div class="text-wrapper-5"><button class="nav-button">Sessioni di Gioco</button></div>
+    <div class="div"><button class="nav-button" (click)="goToPersonal()">Area Personale</button></div>
+    <div class="text-wrapper-2"><button class="nav-button" (click)="goToClasses()">Classi</button></div>
+    <div class="text-wrapper-3"><button class="nav-button" (click)="goToStudents()">Allievi</button></div>
+    <div class="text-wrapper-4"><button class="nav-button" (click)="goToCourses()">Corsi</button></div>
+    <div class="text-wrapper-5"><button class="nav-button" (click)="goToGames()">Sessioni di Gioco</button></div>
     <div class="text-wrapper-6"><button class="nav-button">ITA</button><button class="nav-button"> ENG </button></div>
     <div>
         <button class="personal">

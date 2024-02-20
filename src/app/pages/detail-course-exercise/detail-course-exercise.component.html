@@ -1,0 +1,96 @@
+<input type="hidden" id="anPageName" name="page" value="mostra-corso" />
+<div class="container-center-horizontal">
+    <div class="mostra-corso screen">
+        <div class="container">
+            <div class="frame-5">
+                <h1 class="title">Host Security - Formazione Completa</h1>
+            </div>
+            <div class="couse-body">
+                <div class="frame-11" style="overflow-y:scroll">
+                    <app-list-item-courses></app-list-item-courses>
+                    <div class="tree-view-1 tree-view-4">
+
+                    </div>
+
+                </div>
+                <div class="flex-col">
+                    <div class="primary-button-container">
+                        <button class="primary-button">Modifica
+                        </button>
+                        <button class="primary-button-1">
+                            Esporta </button>
+                    </div>
+                    <div class="frame-12">
+
+                        <div class="rectangle-6">
+                            <app-slider></app-slider>
+                        </div>
+                        <div class="button-container">
+                            <div class="info-button-container"><img class="info-icon"
+                                    src="./../../../assets/font/info-circle-svgrepo-com.svg" />
+                                <!-- info -->
+                                <button (click)="toggleInfoPopup()" class="button">Info</button>
+                                <div id="myPopup" [ngClass]="{ 'show': isInfoPopupVisible }" class="popup">
+                                    <button (click)="closePopup()" class="close-button"><img class="minimize-icon"
+                                            src="./../../../assets/font/line-solid-svgrepo-com.svg" /></button>
+
+                                    <div class="popup-title">
+
+                                        <img class="info-icon" id="icon-popup"
+                                            src="./../../../assets/font/info-circle-svgrepo-com.svg" />
+                                        <p id="title">Info</p>
+                                    </div>
+                                    <hr class="solid">
+                                    <div class="popup-body">
+                                        <p>Indirizzo 172.11.55.44</p>
+                                        <p>Teatro1</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tool-button-container"><img class="tool-icon"
+                                    src="./../../../assets/font/tool-svgrepo-com.svg" />
+                                <button (click)="toggleToolPopup()" class="button">Tool</button>
+                                <!-- tools -->
+                                <div style="border: 1px solid #ffcc00; left:60%" id="myPopup"
+                                    [ngClass]="{ 'show': isToolPopupVisible }" class="popup">
+                                    <button (click)="closePopup()" class="close-button"><img class="minimize-icon"
+                                            src="./../../../assets/font/line-solid-svgrepo-com.svg" /></button>
+
+                                    <div class="popup-title">
+                                        <img class="tool-icon" id="icon-popup"
+                                            src="./../../../assets/font/tool-svgrepo-com.svg" />
+                                        <p id="title">Tool</p>
+                                    </div>
+                                    <hr class="solid">
+                                    <div class="popup-body">
+                                        <p>Le Informazioni vanno qui</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="other-button-container"><img class="other-icon"
+                                    src="./../../../assets/font/add-circle-svgrepo-com.svg" /> <button (click)="toggleOtherPopup()" class="button">Other</button>
+                                    <!-- other -->
+                                    <div style="border: 1px solid #ff2d55; left:80%" id="myPopup"
+                                        [ngClass]="{ 'show': isOtherPopupVisible }" class="popup">
+                                        <button (click)="closePopup()" class="close-button"><img class="minimize-icon"
+                                                src="./../../../assets/font/line-solid-svgrepo-com.svg" /></button>
+    
+                                        <div class="popup-title">
+                                            <img class="tool-icon" id="icon-popup"
+                                                src="./../../../assets/font/add-circle-svgrepo-com.svg" />
+                                            <p id="title">Other</p>
+                                        </div>
+                                        <hr class="solid">
+                                        <div class="popup-body">
+                                            <p>Le Informazioni vanno qui</p>
+                                        </div>
+                                    </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

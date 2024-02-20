@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-list-item-courses',
@@ -7,6 +8,9 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class ListItemCoursesComponent {
 
+
+  url : string = 'detail-course-exercise'
+  constructor(private router: Router) { }
   @ViewChild('accordions') accordions!: ElementRef;
 
   ngAfterViewInit(): void {
@@ -23,4 +27,8 @@ export class ListItemCoursesComponent {
       });
     });
   }
+
+  // goToExercise(): void {
+  //   this.router.navigateByUrl([url]);
+  // }
 }
