@@ -27,7 +27,7 @@ export class AccordionClassesComponent implements AfterViewInit {
   }
 
   editClass(){
-    this.router.navigate(['/'])
+    this.router.navigate(['/edit-class'])
   }
 
   showClass(){

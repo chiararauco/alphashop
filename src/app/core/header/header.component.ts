@@ -1,5 +1,5 @@
 import { Component, ElementRef } from '@angular/core';
-import { Router } from '@angular/router';
+import { NavigationEnd, Router } from '@angular/router';
 import { AuthappService } from 'src/services/authapp.service';
 
 @Component({
@@ -9,8 +9,16 @@ import { AuthappService } from 'src/services/authapp.service';
 })
 export class HeaderComponent {
 
-  constructor(public basicAuth: AuthappService, private elRef: ElementRef, private router: Router) {
+  isInstructorPopupVisible = false;
+  isNavbarVisible: boolean = true;
 
+
+  constructor(public basicAuth: AuthappService, private elRef: ElementRef, private router: Router) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.isNavbarVisible = !event.url.includes('/login');
+      }
+    });
   }
 
   ngOnInit(): void {
@@ -28,9 +36,19 @@ export class HeaderComponent {
       dialog.close();
     });
     // this.addIdsToRows();
+
+
   }
 
-  goToHome(){
+  closePopup(): void {
+    this.isInstructorPopupVisible = false;
+    
+  }
+  toggleInstructorPopup(): void {
+    this.isInstructorPopupVisible = !this.isInstructorPopupVisible;
+  }
+
+  goToHome() {
     this.router.navigate(['/homepage']);
 
   }
@@ -39,20 +57,20 @@ export class HeaderComponent {
     this.router.navigate(['/personal']);
   }
 
-  goToClasses(){
+  goToClasses() {
     this.router.navigate(['/classes']);
   }
 
-  goToCourses(){
+  goToCourses() {
     this.router.navigate(['/courses']);
   }
 
-  goToStudents(){
+  goToStudents() {
     this.router.navigate(['/students']);
 
   }
 
-  goToGames(){
+  goToGames() {
     this.router.navigate(['/games']);
 
   }

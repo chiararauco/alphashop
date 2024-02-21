@@ -42,6 +42,7 @@ import { DetailCourseExerciseComponent } from './pages/detail-course-exercise/de
 import { ShowResultsComponent } from './pages/show-results/show-results.component';
 import { VirtualCoachComponent } from './components/virtual-coach/virtual-coach.component';
 import { EditCourseComponent } from './pages/edit-course/edit-course.component';
+import { EditClassComponent } from './pages/edit-class/edit-class.component';
 
 @NgModule({
   declarations: [
@@ -81,6 +82,7 @@ import { EditCourseComponent } from './pages/edit-course/edit-course.component';
     ShowResultsComponent,
     VirtualCoachComponent,
     EditCourseComponent,
+    EditClassComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 import { Component, ElementRef } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-virtual-coach',
@@ -7,7 +8,10 @@ import { Component, ElementRef } from '@angular/core';
 })
 export class VirtualCoachComponent {
 
-  constructor(private elRef: ElementRef){}
+
+  constructor(private elRef: ElementRef, private router: Router) {
+    
+  }
 
   ngOnInit(): void {
     const dialog = this.elRef.nativeElement.querySelector("dialog");

@@ -678,6 +678,14 @@ input {
   }
 }
 
+.list-2 {
+  display: flex;
+  padding: 10px 0px 0px 10px;
+  ul {
+    height: 100%;
+  }
+}
+
 .container-3 {
   /* background-color: #995; */
   height: fit-content;

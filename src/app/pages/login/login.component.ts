@@ -9,32 +9,17 @@ import { AuthappService } from 'src/services/authapp.service';
 })
 export class LoginComponent implements OnInit {
 
-  userId: string = "";
-  password: string = "";
 
-  autenticato: boolean = true;
-  errMsg: string = "Spiacente, la userid e/o la password sono errate"
-  okMsg: string = "Accesso Consentito";
+  showHeader = true
 
-  titolo: string = "Accesso & Autenticazione";
-  sottotitolo: string = "Procedi ad inserire la userid e la password"
-
-  //code Injection attraverso la creazione della variabile privata, abbiamo 
-  //la possibilità di accedere alle proprietà del router
-  constructor(private route: Router, private basicAuth: AuthappService) { }
+  constructor(private route: Router) { }
 
   ngOnInit(): void {
 
   }
 
-  gestAuth = () => {
-    console.log(this.userId)
-
-    if (this.basicAuth.autentica(this.userId, this.password)) {
-      this.route.navigate(['welcome', this.userId]);
-      this.autenticato = true;
-    } else {
-      this.autenticato = false;
-    }
+  goToHomepage() {
+    this.route.navigate(['/homepage'])
   }
+
 }

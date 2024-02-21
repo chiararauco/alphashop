@@ -1,4 +1,4 @@
-<div class="navbar">
+<div class="navbar" *ngIf="isNavbarVisible">
     <img class="unavox-logo" src="./../../../assets/images/unavox logo.png" />
     <div class="text-wrapper">
         <button class="nav-button" (click)="goToHome()">Home</button>
@@ -10,7 +10,7 @@
     <div class="text-wrapper-5"><button class="nav-button" (click)="goToGames()">Sessioni di Gioco</button></div>
     <div class="text-wrapper-6"><button class="nav-button">ITA</button><button class="nav-button"> ENG </button></div>
     <div>
-        <button class="personal">
+        <button class="personal" (click)="toggleInstructorPopup()">
             <div class="left-content">
                 <div class="icon"><img class="person-filled" src="./../../../assets/font/person-svgrepo-com.svg" />
                 </div>
@@ -19,5 +19,20 @@
                 <div class="text-wrapper-7">Istruttore</div>
             </div>
         </button>
+        <div id="myPopup" [ngClass]="{ 'show': isInstructorPopupVisible }" class="popup">
+            <button (click)="closePopup()" class="close-button"><img class="minimize-icon"
+                    src="./../../../assets/font/line-solid-svgrepo-com.svg" /></button>
+
+            <div class="popup-title">
+
+                <img class="info-icon" id="icon-popup" src="./../../../assets/font/info-circle-svgrepo-com.svg" />
+                <p id="title">Info</p>
+            </div>
+            <hr class="solid">
+            <div class="popup-body">
+                <p>Indirizzo 172.11.55.44</p>
+                <p>Teatro1</p>
+            </div>
+        </div>
     </div>
 </div>

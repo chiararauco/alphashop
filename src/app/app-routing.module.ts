@@ -23,6 +23,7 @@ import { AvailableClassesStudentComponent } from './pages/available-classes-stud
 import { DetailCourseExerciseComponent } from './pages/detail-course-exercise/detail-course-exercise.component';
 import { ShowResultsComponent } from './pages/show-results/show-results.component';
 import { EditCourseComponent } from './pages/edit-course/edit-course.component';
+import { EditClassComponent } from './pages/edit-class/edit-class.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent }, //componente da visualizzare se non ci sono pagine specifiche 
@@ -45,6 +46,7 @@ const routes: Routes = [
   { path: 'detail-course-exercise', component: DetailCourseExerciseComponent },
   { path: 'show-results', component: ShowResultsComponent },
   { path: 'edit-course', component: EditCourseComponent },
+  { path: 'edit-class', component: EditClassComponent },
 
   // { path: 'welcome/:userid', component: WelcomeComponent, canActivate: [RouteGuardService] },
   // { path: 'logout', component: LogoutComponent },
