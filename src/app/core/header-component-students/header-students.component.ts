@@ -3,18 +3,21 @@ import { NavigationEnd, Router } from '@angular/router';
 import { AuthappService } from 'src/services/authapp.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-header-students',
+  templateUrl: './header-students.component.html',
+  styleUrls: ['./header-students.component.css']
 })
-export class HeaderComponent {
-
-
+export class HeaderStudentsComponent {
+  isStudent: boolean = true;
   isInstructorPopupVisible = false;
-  // isNavbarVisible: boolean = true;
 
 
   constructor(public basicAuth: AuthappService, private elRef: ElementRef, private router: Router) {
+    // this.router.events.subscribe(event => {
+    //   if (event instanceof NavigationEnd) {
+    //     this.isNavbarVisible = !event.url.includes('/login') || !event.url.includes('/');
+    //   }
+    // });
 
   }
 
@@ -34,6 +37,9 @@ export class HeaderComponent {
     });
     // this.addIdsToRows();
 
+    localStorage.getItem('Utente') === 'allievo' ? this.isStudent = true : false;
+
+
 
   }
 
@@ -46,7 +52,7 @@ export class HeaderComponent {
   }
 
   goToHome() {
-    this.router.navigate(['/homepage']);
+    this.router.navigate(['/homepage-student']);
   }
 
   logout() {
@@ -56,24 +62,16 @@ export class HeaderComponent {
   }
 
   goToPersonal() {
-    this.router.navigate(['/personal']);
+    this.router.navigate(['/personal-student']);
   }
 
   goToClasses() {
-    this.router.navigate(['/classes']);
+    this.router.navigate(['/available-classes']);
   }
 
   goToCourses() {
     this.router.navigate(['/courses']);
   }
 
-  goToStudents() {
-    this.router.navigate(['/students']);
 
-  }
-
-  goToGames() {
-    this.router.navigate(['/games']);
-
-  }
 }

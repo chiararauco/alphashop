@@ -8,6 +8,6 @@ import { Router } from '@angular/router';
 })
 export class PersonalAreaComponent {
 
-  constructor(private router: Router){}
+  constructor(){}
 
 }

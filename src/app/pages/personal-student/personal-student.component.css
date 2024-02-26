@@ -8,20 +8,16 @@
 }
 
 .personal-area .div {
+  background-color: #ededed;
+  width: 85%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #ededed;
-  width: 85%;
-  height: fit-content;
   position: relative;
 }
 
-.solid {
-  width: 100%;
-  margin: 3% 0%;
-}
 .personal-area .divider {
   width: 1276px;
   height: 101px;
@@ -55,8 +51,11 @@
 }
 
 .personal-area .overlap {
-  width: 100%;
+  width: 85%;
   height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .personal-area .divider-horizontal-wrapper {
@@ -238,32 +237,46 @@
 }
 
 .personal-area .overlap-group {
+  background-color: lightgray;
+  /*    */
   width: 100%;
-  height: fit-content;
+  height: 605px;
+  /* top: 73px;
+  left: 81px; */
   border-radius: 10px;
-}
-
-.personal-area .frame {
   display: flex;
   flex-direction: row;
   padding: 3%;
+}
+
+.personal-area .frame {
+  width: 1277px;
+  left: 0;
   background-color: #d9d9d9;
   border-radius: 10px;
   overflow: hidden;
 
-  height: 557px;
+  height: 605px;
   top: 0;
 }
 
 .personal-area .attacco {
   width: 40%;
   height: 100%;
-
+ 
   object-fit: cover;
 }
 
 .personal-area .frame-2 {
   width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.solid {
+    width: 85%;
+    margin: 3% 0px
 }
 
 .personal-area .p {
@@ -292,26 +305,30 @@
 
 .personal-area .list-items-available {
   width: 100%;
-  height: fit-content;
+  height: 488px;
+  top: 117px;
+  left: 0;
   border-radius: 5px;
   overflow: hidden;
 }
 
 .personal-area .property-default-2 {
-  width: 628px;
+  width: 100%;
   height: 97px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .personal-area .vector-wrapper {
   width: 53px;
   height: 53px;
+  margin-right: 2%;
   background-color: #2196f3;
   border-radius: 26.5px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -324,15 +341,7 @@
   color: white;
 }
 
-.button-container {
-  display: flex;
-  flex-direction: row;
-  margin-left: 25%;
-}
-
 .personal-area .text-wrapper-5 {
-  margin-left: 2%;
-  margin-bottom: 0%;
   font-family: "Poppins-Light", Helvetica;
   font-weight: 300;
   color: #000000;
@@ -340,6 +349,8 @@
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
+  margin-bottom: 0px;
+  margin-right: 25%;
 }
 
 .personal-area .primary-button {
@@ -399,12 +410,12 @@
 
 .personal-area .label-wrapper {
   display: flex;
-  width: 81px;
+  width: fit-content;
   height: 36px;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   gap: 8px;
-  padding: 12px 20px;
+  padding: 6px 20px;
 
   top: 37px;
   left: 528px;
@@ -412,8 +423,8 @@
   transition: all 0.3s ease;
   background: transparent;
   border: none;
-  color: #ff9500;
-  font-weight: bold;
+  color: #2196f3;
+  /* font-weight: bold;*/
 }
 
 .personal-area .label-2 {

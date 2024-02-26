@@ -4,33 +4,20 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding: 3% 0%;
 }
 
 .available-classes-student .div {
   background-color: #ededed;
-  width: 1440px;
-  height: 1220px;
-  position: relative;
-}
-
-.available-classes-student .divider {
-  position: absolute;
-  width: 1223px;
-  height: 88px;
-  top: 323px;
-  left: 108px;
-  overflow: hidden;
-}
-
-.available-classes-student .divider-horizontal {
   display: flex;
   flex-direction: column;
-  width: 1276px;
-  height: 3px;
-  align-items: flex-start;
-  position: relative;
-  top: 51px;
-  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.solid {
+  width: 80%;
+  margin: 3% 0%;
 }
 
 .available-classes-student .min-height {
@@ -48,7 +35,6 @@
 }
 
 .available-classes-student .add-button {
-  position: absolute;
   width: 288px;
   height: 78px;
   top: 32px;
@@ -58,7 +44,6 @@
 }
 
 .available-classes-student .add-circle-outline {
-  position: absolute;
   width: 28px;
   height: 28px;
   top: 25px;
@@ -66,7 +51,6 @@
 }
 
 .available-classes-student .text-wrapper {
-  position: absolute;
   height: 24px;
   top: 37px;
   left: 42px;
@@ -81,9 +65,8 @@
 }
 
 .available-classes-student .card-scorrevoli {
-  position: absolute;
   width: 1269px;
-  height: 740px;
+  height: fit-content;
   top: 415px;
   left: 85px;
   border-radius: 5px;
@@ -94,8 +77,8 @@
 
 .available-classes-student .property-default {
   top: 20px;
-  position: absolute;
-  width: 1223px;
+
+  width: 100%;
   height: 340px;
   left: 20px;
   background-color: #ffffff;
@@ -107,8 +90,8 @@
 .available-classes-student .property {
   padding: 10px;
   top: 380px;
-  position: absolute;
-  width: 1223px;
+
+  width: 100%;
   height: 340px;
   left: 20px;
   background-color: #ffffff;
@@ -117,26 +100,27 @@
 }
 
 .available-classes-student .frame {
-  position: absolute;
   width: 1277px;
   height: 205px;
-  top: 65px;
-  left: 78px;
+
   background-color: #ff9500;
   border-radius: 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
 }
 
 .available-classes-student .intestazione-card {
-  position: relative;
   width: 736px;
-  height: 160px;
-  top: 22px;
-  left: 22px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .available-classes-student .text-wrapper-4 {
-  position: absolute;
   width: 402px;
   top: 35px;
   left: 30px;
@@ -149,7 +133,6 @@
 }
 
 .available-classes-student .local-library-wrapper {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 10px;
@@ -159,7 +142,6 @@
 }
 
 .available-classes-student .local-library {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 0;
@@ -167,7 +149,6 @@
 }
 
 .available-classes-student .text-wrapper-5 {
-  position: absolute;
   width: 602px;
   top: 82px;
   left: 30px;
@@ -180,7 +161,6 @@
 }
 
 .available-classes-student .text-wrapper {
-  position: absolute;
   width: 602px;
   top: 124px;
   left: 51px;
@@ -193,7 +173,6 @@
 }
 
 .available-classes-student .text-wrapper-2 {
-  position: absolute;
   top: 73px;
   left: 52px;
   font-family: "Poppins-Bold", Helvetica;
@@ -206,11 +185,10 @@
 }
 
 .available-classes-student .groups {
-  position: absolute;
   width: 70px;
   height: 70px;
-  top: 40px;
-  left: 495px;
+  margin-right: 1%;
+  margin-bottom: 1%;
 }
 
 .available-classes-student .text-wrapper-title-card {

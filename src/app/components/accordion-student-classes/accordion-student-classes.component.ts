@@ -1,11 +1,15 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-accordion-classes-courses',
-  templateUrl: './accordion-classes-courses.component.html',
-  styleUrls: ['./accordion-classes-courses.component.css']
+  selector: 'app-accordion-student-classes',
+  templateUrl: './accordion-student-classes.component.html',
+  styleUrls: ['./accordion-student-classes.component.css']
 })
-export class AccordionClassesCoursesComponent {
+export class AccordionStudentClassesComponent {
+
+  constructor(private router: Router) { }
+
   @ViewChild('accordions') accordions!: ElementRef;
 
   ngAfterViewInit(): void {
@@ -14,7 +18,7 @@ export class AccordionClassesCoursesComponent {
       accordion.addEventListener('click', () => {
         accordion.classList.toggle('active');
         const panel = accordion.nextElementSibling;
-        if (panel.style.display === 'block') {
+        if (panel.style.display === 'flex') {
           panel.style.display = 'none';
         } else {
           panel.style.display = 'flex';
@@ -23,5 +27,13 @@ export class AccordionClassesCoursesComponent {
         }
       });
     });
+  }
+
+  goToDetailStudentClass() {
+    this.router.navigate(['detail-student-class']);
+  }
+
+  goToCompletedClass() {
+    this.router.navigate(['completed-class'])
   }
 }

@@ -4,33 +4,22 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding: 3% 0%;
 }
 
 .corsi-disponibili .div {
   background-color: #ededed;
-  width: 1440px;
-  height: 1220px;
+  width: 85%;
+  height: fit-content;
   position: relative;
 }
 
 .corsi-disponibili .divider {
-  position: absolute;
   width: 1223px;
   height: 88px;
   top: 323px;
   left: 108px;
   overflow: hidden;
-}
-
-.corsi-disponibili .divider-horizontal {
-  display: flex;
-  flex-direction: column;
-  width: 1276px;
-  height: 3px;
-  align-items: flex-start;
-  position: relative;
-  top: 51px;
-  background-color: #d9d9d9;
 }
 
 .corsi-disponibili .min-height {
@@ -47,12 +36,16 @@
   object-fit: cover;
 }
 
+.solid {
+  width: 100%;
+  margin: 3% 0%;
+}
+
 .corsi-disponibili .add-button {
-  position: absolute;
   width: fit-content;
-  height: 78px;
-  top: 39px;
-  left: 1150px;
+  height: fit-content;
+  margin-bottom: 1%;
+  margin-left: 83%;
   border: none;
   background: transparent;
   font-size: larger;
@@ -61,7 +54,6 @@
 }
 
 .corsi-disponibili .add-circle-outline {
-  position: absolute;
   width: 28px;
   height: 28px;
   top: 25px;
@@ -69,7 +61,6 @@
 }
 
 .corsi-disponibili .text-wrapper {
-  position: absolute;
   height: 24px;
   top: 37px;
   left: 42px;
@@ -84,11 +75,9 @@
 }
 
 .corsi-disponibili .card-scorrevoli {
-  position: absolute;
-  width: 1269px;
-  height: 740px;
-  top: 415px;
-  left: 85px;
+  width: 100%;
+  padding: 1%;
+  height: fit-content;
   border-radius: 5px;
   overflow: hidden;
   border: 1px dashed;
@@ -96,11 +85,8 @@
 }
 
 .corsi-disponibili .property-default {
-  top: 20px;
-  position: absolute;
-  width: 1223px;
-  height: 340px;
-  left: 20px;
+  width: 100%;
+  height: fit-content;
   background-color: #ffffff;
   border-radius: 2px;
   overflow: hidden;
@@ -121,25 +107,27 @@
 
 .corsi-disponibili .property {
   padding: 10px;
-  top: 380px;
-  position: absolute;
-  width: 1223px;
-  height: 340px;
-  left: 20px;
+
+  width: 100%;
+  height: fit-content;
   background-color: #ffffff;
   border-radius: 2px;
   overflow: hidden;
 }
 
 .corsi-disponibili .frame {
-  position: absolute;
-  width: 1273px;
+  width: 100%;
   height: 205px;
-  top: 118px;
-  left: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #3164f4;
   border-radius: 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
 }
 
 .corsi-disponibili .intestazione-card {
@@ -151,10 +139,6 @@
 }
 
 .corsi-disponibili .text-wrapper-4 {
-  position: absolute;
-  width: 402px;
-  top: 35px;
-  left: 30px;
   font-family: "Poppins-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
@@ -164,7 +148,6 @@
 }
 
 .corsi-disponibili .local-library-wrapper {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 10px;
@@ -174,7 +157,6 @@
 }
 
 .corsi-disponibili .local-library {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 0;
@@ -182,7 +164,6 @@
 }
 
 .corsi-disponibili .text-wrapper-5 {
-  position: absolute;
   width: 602px;
   top: 82px;
   left: 30px;

@@ -4,33 +4,22 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding: 3%;
 }
 
 .classi-disponibili .div {
   background-color: #ededed;
-  width: 1440px;
-  height: 1450px;
-  position: relative;
-}
-
-.classi-disponibili .divider {
-  position: absolute;
-  width: 1223px;
-  height: 101px;
-  top: 281px;
-  left: 105px;
-  overflow: hidden;
-}
-
-.classi-disponibili .divider-horizontal {
   display: flex;
   flex-direction: column;
-  width: 1276px;
-  height: 3px;
-  align-items: flex-start;
-  position: relative;
-  top: 51px;
-  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: flex-start;
+  height: fit-content;
+  width: 100%;
+}
+
+.solid {
+  width: 92%;
+  margin: 3% 0%;
 }
 
 .classi-disponibili .min-height {
@@ -47,7 +36,6 @@
 }
 
 .classi-disponibili .frame {
-  position: absolute;
   width: 1277px;
   height: 205px;
   top: 65px;
@@ -84,7 +72,6 @@
 }
 
 .accordion-container {
-  position: absolute;
   width: 1223px;
   height: 101px;
   top: 370px;
@@ -93,7 +80,7 @@
 
 .box {
   padding: 10px;
-  position: absolute;
+
   width: 1223px;
   height: 350px;
   top: 370px;
@@ -146,11 +133,10 @@
 
 .info-box {
   padding: 30px;
-  position: absolute;
+  margin-top: 1%;
   width: 1223px;
   height: fit-content;
-  top: 735px;
-  left: 105px;
+
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -203,7 +189,7 @@
   left: 0;
   overflow: hidden;
   padding: 20px 15px;
-  /* position: absolute; */
+  /*   */
   width: fit-content;
   margin-left: 3%;
 }
@@ -462,7 +448,6 @@
 }
 
 .button-container {
-  position: absolute;
   width: 260px;
   height: 50px;
   top: 1277px;

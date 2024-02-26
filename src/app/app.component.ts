@@ -8,16 +8,27 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent {
 
-  isVirtualCoachVisible: boolean = true;
+
+
+  isVisible: boolean = true;
 
   constructor(private router: Router) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        this.isVirtualCoachVisible = !event.url.includes('/login');
+        this.isVisible = !event.url.includes('/login');
       }
     });
+
+
+
   }
 
   ngOnInit(): void {
+
+   
   }
+
+
+
+
 }

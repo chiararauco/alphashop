@@ -24,6 +24,10 @@ import { DetailCourseExerciseComponent } from './pages/detail-course-exercise/de
 import { ShowResultsComponent } from './pages/show-results/show-results.component';
 import { EditCourseComponent } from './pages/edit-course/edit-course.component';
 import { EditClassComponent } from './pages/edit-class/edit-class.component';
+import { PersonalStudentComponent } from './pages/personal-student/personal-student.component';
+import { HomepageStudentComponent } from './pages/homepage-student/homepage-student.component';
+import { CompletedClassComponent } from './pages/completed-class/completed-class.component';
+import { DetailStudentSubscriptionClassComponent } from './pages/detail-student-subscription-class/detail-student-subscription-class.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent }, //componente da visualizzare se non ci sono pagine specifiche 
@@ -47,6 +51,10 @@ const routes: Routes = [
   { path: 'show-results', component: ShowResultsComponent },
   { path: 'edit-course', component: EditCourseComponent },
   { path: 'edit-class', component: EditClassComponent },
+  { path: 'personal-student', component: PersonalStudentComponent },
+  { path: 'homepage-student', component: HomepageStudentComponent },
+  { path: 'completed-class', component: CompletedClassComponent },
+  { path: 'detail-student-subscription-class', component: DetailStudentSubscriptionClassComponent },
 
   // { path: 'welcome/:userid', component: WelcomeComponent, canActivate: [RouteGuardService] },
   // { path: 'logout', component: LogoutComponent },

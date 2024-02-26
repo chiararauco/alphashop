@@ -1,11 +1,11 @@
 .box {
   position: relative;
-  width: 1223px;
-  height: 763px;
+  width: 100%;
+  height: fit-content;
 }
 
 .box .accordion-summary {
-  width: 1223px;
+  width: 100%;
   height: fit-content;
   top: 0;
   left: 0;

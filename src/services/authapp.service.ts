@@ -5,23 +5,47 @@ import { Injectable } from '@angular/core';
 })
 export class AuthappService {
 
+  private loggedIn: boolean = false;
+  private userRole: string = ''; // Salva il ruolo dell'utente
+
   constructor() { }
 
-  autentica = (userid: string, password: string): boolean => {
-    var retVal = (userid === 'Chiara' && password === '1234') ? true : false;
-    if (retVal) {
-      sessionStorage.setItem('Utente', userid)
+  login(username: string, password: string): boolean {
+    if (username === 'allievo' && password === '1234') {
+      this.loggedIn = true;
+      this.userRole = 'allievo';
+      return true;
+    } else if (username === 'istruttore' && password === '1234') {
+      this.loggedIn = true;
+      this.userRole = 'istruttore';
+      return true;
     }
-
-    return retVal
+    else {
+      this.loggedIn = false;
+      return false;
+    }
   }
 
-  //metodi per determinare se lutente è loggato o meno
-  loggedUser = (): string | null => (sessionStorage.getItem("Utente") ? sessionStorage.getItem("Utente") : "")
-  islogged = (): boolean => (sessionStorage.getItem("Utente") ? true : false)
-  cleanUser = (): void => sessionStorage.removeItem("Utente")
+  // Permette di verificare lo stato di accesso
+  isLoggedIn(): boolean {
+    return this.loggedIn;
+  }
 
-  clearAll = (): void => sessionStorage.clear()
+  // Permette di definire il ruolo dell'utente
+  getUserRole(): string {
+    return this.userRole;
+  }
+
+  // Simula il processo di logout
+  logout(): void {
+    this.loggedIn = false;
+    this.userRole = '';
+  }
+
+  clearAll = (): void => sessionStorage.clear();
+
+  cleanUser = (): void => sessionStorage.removeItem("Utente");
+
 
 
 }

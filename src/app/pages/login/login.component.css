@@ -4,6 +4,8 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
 .login .overlap-group-wrapper {
@@ -11,6 +13,8 @@
   overflow-x: hidden;
   width: 1440px;
   height: 680px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 38px 4px;
 }
 
 .login .overlap-group {
@@ -20,6 +24,7 @@
   background-image: url(./../../../assets/images/2019-cyber-range.jpg);
   background-size: cover;
   background-position: 50% 50%;
+  border-radius: 10px;
 }
 
 .login .login-form {
@@ -67,6 +72,8 @@
   font-size: 13px;
   letter-spacing: 0;
   line-height: normal;
+  border: none;
+  background-color: transparent;
 }
 
 .login .text-wrapper-3 {
@@ -108,7 +115,7 @@
   display: flex;
   flex-direction: column;
   width: 125px;
-  height: 33px;
+  height: 40px;
   align-items: center;
   justify-content: center;
   padding: 6px 16px;
@@ -119,6 +126,7 @@
   border-radius: var(--shape-borderradius);
   overflow: hidden;
   box-shadow: var(--elevation-2);
+  color: white;
 }
 
 .login .base {
@@ -130,22 +138,6 @@
   flex: 0 0 auto;
   margin-top: -1.5px;
   margin-bottom: -1.5px;
-}
-
-.login .button-2 {
-  all: unset;
-  box-sizing: border-box;
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--button-medium-font-family);
-  font-weight: var(--button-medium-font-weight);
-  color: var(--palette-primary-contrast);
-  font-size: var(--button-medium-font-size);
-  letter-spacing: var(--button-medium-letter-spacing);
-  line-height: var(--button-medium-line-height);
-  white-space: nowrap;
-  font-style: var(--button-medium-font-style);
 }
 
 .login .text-wrapper-4 {

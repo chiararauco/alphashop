@@ -15,7 +15,7 @@ export class RouteGuardService implements CanActivate {
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
 
     //se l'utente non è loggato il servizio redireziona alla pagina di login
-    if (this.basicAuth.islogged() === false) {
+    if (this.basicAuth.isLoggedIn() === false) {
       this.route.navigate(["login"])
       return false
     } else {

@@ -1,4 +1,5 @@
 import { Component, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-available-classes-table',
@@ -6,6 +7,8 @@ import { Component, ElementRef } from '@angular/core';
   styleUrls: ['./available-classes-table.component.css']
 })
 export class AvailableClassesTableComponent {
+
+  constructor(private router: Router) { }
 
   tableData: any[] = [
     { name: 'Classe Host Security', category: 'Classi Disponibili' },
@@ -43,7 +46,23 @@ export class AvailableClassesTableComponent {
 
   }
 
-  handleButtonClick(){
+  handleButtonClick() {
     prompt('ciao')
+  }
+
+  goToClassDetail() {
+    this.router.navigate(['/detail-student-class'])
+  }
+
+  goToStatusClass() {
+    this.router.navigate(['/completed-class'])
+  }
+
+  goToDetailSubscriptionStudentClass() {
+    this.router.navigate(['/detail-student-subscription-class'])
+  }
+
+  goToCourseDetail() {
+    this.router.navigate(['detail-course'])
   }
 }

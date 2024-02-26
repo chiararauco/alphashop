@@ -43,6 +43,12 @@ import { ShowResultsComponent } from './pages/show-results/show-results.componen
 import { VirtualCoachComponent } from './components/virtual-coach/virtual-coach.component';
 import { EditCourseComponent } from './pages/edit-course/edit-course.component';
 import { EditClassComponent } from './pages/edit-class/edit-class.component';
+import { PersonalStudentComponent } from './pages/personal-student/personal-student.component';
+import { AccordionStudentClassesComponent } from './components/accordion-student-classes/accordion-student-classes.component';
+import { HomepageStudentComponent } from './pages/homepage-student/homepage-student.component';
+import { HeaderStudentsComponent } from './core/header-component-students/header-students.component';
+import { CompletedClassComponent } from './pages/completed-class/completed-class.component';
+import { DetailStudentSubscriptionClassComponent } from './pages/detail-student-subscription-class/detail-student-subscription-class.component';
 
 @NgModule({
   declarations: [
@@ -83,6 +89,12 @@ import { EditClassComponent } from './pages/edit-class/edit-class.component';
     VirtualCoachComponent,
     EditCourseComponent,
     EditClassComponent,
+    PersonalStudentComponent,
+    AccordionStudentClassesComponent,
+    HomepageStudentComponent,
+    HeaderStudentsComponent,
+    CompletedClassComponent,
+    DetailStudentSubscriptionClassComponent,
   ],
   imports: [
     BrowserModule,

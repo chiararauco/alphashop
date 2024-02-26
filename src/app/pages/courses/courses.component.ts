@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { style } from '@angular/animations';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthappService } from 'src/services/authapp.service';
 
 @Component({
   selector: 'app-courses',
@@ -7,9 +9,17 @@ import { Router } from '@angular/router';
   styleUrls: ['./courses.component.css']
 })
 export class CoursesComponent {
-  constructor(private router: Router) { }
 
+
+
+  isDisabled: boolean = false;
+  constructor(private router: Router, private basicAuth: AuthappService) { }
+
+  isStudent(): boolean {
+    return this.basicAuth.getUserRole() === 'allievo';
+  }
   addCourse() {
     this.router.navigate(['/create-course'])
   }
+
 }

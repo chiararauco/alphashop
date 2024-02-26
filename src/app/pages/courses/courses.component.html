@@ -1,12 +1,6 @@
 <div class="corsi-disponibili">
     <div class="div">
-        <div class="divider">
-            <div class="divider-horizontal">
-                <div class="min-height"></div>
-                <img class="img" src="img/divider.svg" />
-            </div>
-        </div>
-        <button type="button" class="add-button" (click)="addCourse()">
+        <button type="button" class="add-button" (click)="addCourse()" *ngIf="isStudent()">
             Aggiungi un corso
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#3164F4" class="bi bi-plus-circle"
                 viewBox="0 0 16 16">
@@ -15,6 +9,14 @@
                     d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
             </svg>
         </button>
+        <div class="frame">
+            <div class="text-wrapper-4">Corsi Disponibili
+                <img class="local-library" src="./../../../assets/font/book-reader-svgrepo-com.svg" />
+            </div>
+            <p class="text-wrapper-5">Ecco la lista di corsi disponibili del Learning Management System</p>
+        </div>
+        <hr class="solid" />
+
         <div class="card-scorrevoli">
 
             <div class="property-default">
@@ -30,13 +32,6 @@
                 <app-scrollable-cards></app-scrollable-cards>
             </div>
         </div>
-        <div class="frame">
-            <div class="intestazione-card">
-                <div class="text-wrapper-4">Corsi Disponibili</div>
-                <div class="local-library-wrapper"><img class="local-library"
-                        src="./../../../assets/font/book-reader-svgrepo-com.svg" /></div>
-                <p class="text-wrapper-5">Ecco la lista di corsi disponibili del Learning Management System</p>
-            </div>
-        </div>
+
     </div>
 </div>

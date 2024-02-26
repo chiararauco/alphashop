@@ -4,21 +4,21 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding: 3% 0%;
 }
 
 .classi-disponibili .div {
   background-color: #ededed;
-  width: 1440px;
-  height: 1174px;
+  width: 85%;
+  height: fit-content;
   position: relative;
 }
 
 .classi-disponibili .add-button {
-  position: absolute;
   width: fit-content;
   height: fit-content;
-  top: 35px;
-  left: 1141px;
+  margin-left: 81%;
+  margin-bottom: 1%;
   border: none;
   background: transparent;
   font-size: larger;
@@ -27,7 +27,6 @@
 }
 
 .classi-disponibili .divider {
-  position: absolute;
   width: 87%;
   height: fit-content;
   top: 325px;
@@ -62,18 +61,19 @@
 }
 
 .classi-disponibili .frame {
-  position: absolute;
-  width: 1277px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
+  width: 100%;
   height: 205px;
-  top: 82px;
-  left: 78px;
+
   background-color: #ff9500;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .classi-disponibili .text-wrapper {
-  position: absolute;
   width: 602px;
   top: 124px;
   left: 51px;
@@ -86,7 +86,6 @@
 }
 
 .classi-disponibili .text-wrapper-2 {
-  position: absolute;
   top: 73px;
   left: 52px;
   font-family: "Poppins-Bold", Helvetica;
@@ -99,17 +98,18 @@
 }
 
 .classi-disponibili .groups {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 40px;
   left: 495px;
 }
 
+.solid {
+  width: 100%;
+  margin: 3% 0%;
+}
+
 .accordion-container {
-  position: absolute;
-  width: 1223px;
-  height: 101px;
-  top: 370px;
-  left: 105px;
+  width: 100%;
+  height: fit-content;
 }

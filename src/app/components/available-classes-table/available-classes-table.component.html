@@ -13,17 +13,19 @@
                 <ng-container *ngIf="item.category === selectedTab">
                     <div class="td-container">
                         <td class="td">{{ item.name }}</td>
-                        <td *ngIf="item.category === 'Classi Disponibili'"><button class="show-button">Mostra</button>
+                        <td *ngIf="item.category === 'Classi Disponibili'"><button class="show-button"
+                                (click)="goToClassDetail()">Mostra</button>
                         </td>
-                        <td *ngIf="item.category === 'Classi Concluse'"><button class="status-button">Status</button>
+                        <td *ngIf="item.category === 'Classi Concluse'"><button class="status-button"
+                                (click)="goToStatusClass()">Status</button>
                         </td>
                         <td *ngIf="item.category === 'Classi in corso'">
-                            <button class="show-button">Mostra</button>
-                            <button class="status-button">Status</button>
+                            <button class="show-button" (click)="goToCourseDetail()">Mostra</button>
+                            <button class="status-button" (click)="goToStatusClass()">Status</button>
                         </td>
                         <td *ngIf="item.category === 'Classi a cui sei iscritto'">
-                            <button class="show-button">Mostra</button>
-                            <button class="status-button">Status</button>
+                            <button class="show-button" (click)="goToDetailSubscriptionStudentClass()">Mostra</button>
+                            <button class="status-button" (click)="goToStatusClass()">Status</button>
                         </td>
                     </div>
                 </ng-container>

@@ -5,32 +5,38 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 3% 0px;
 }
 
 .crea-corso .div {
   background-color: #ededed;
   overflow: hidden;
-  width: 100%;
-  max-width: 1440px;
-  height: 1583px;
+  width: 75%;
+  /* max-width: 1440px; */
+  height: fit-content;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .crea-corso .overlap {
   width: 100%;
-  max-width: 1273px;
+  /* max-width: 1273px; */
   height: 205px;
-  top: 75px;
   background-size: 100% 100%;
-  position: absolute;
-  left: 0;
+  /*   */
   background-color: #3164f4;
   border-radius: 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3%;
 }
 
 .crea-corso .text-wrapper-5 {
-  position: absolute;
   width: 402px;
   top: 80px;
   left: 55px;
@@ -43,7 +49,6 @@
 }
 
 .crea-corso .local-library {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 50px;
@@ -51,13 +56,11 @@
 }
 
 .crea-corso .divider {
-  position: absolute;
   width: 100%;
   max-width: 1223px;
-  height: 101px;
-  top: 305px;
-  left: 0;
   overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .crea-corso .divider-horizontal {
@@ -89,26 +92,27 @@
 .crea-corso .overlap-group {
   width: 100%;
   max-width: 1277px;
-  height: 1090px;
-  top: 431px;
+  height: fit-content;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0px 4px 4px #00000040;
-  position: absolute;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
 }
 
 .crea-corso .frame {
-  position: absolute;
   width: 100%;
-  max-width: 624px;
-  height: 108px;
-  top: 28px;
-  left: calc(50% - 312px);
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .crea-corso .text-wrapper {
-  position: absolute;
   top: 44px;
   left: 70px;
   font-family: "Poppins-SemiBold", Helvetica;
@@ -121,15 +125,13 @@
 }
 
 .crea-corso .vector {
-  position: absolute;
   width: 33px;
   height: 37px;
-  top: 32px;
-  left: 518px;
+  margin-bottom: 2%;
+  margin-left: 1%;
 }
 
 .crea-corso .divider-horizontal-wrapper {
-  position: absolute;
   width: 100%;
   max-width: 643px;
   height: 101px;
@@ -139,29 +141,29 @@
 }
 
 .crea-corso .frame-2 {
-  position: absolute;
   width: 100%;
   max-width: 929px;
-  height: 831px;
-  top: 172px;
-  left: calc(50% - 464.5px);
+  height: fit-content;
+
   border-radius: 5px;
   overflow: hidden;
   border: 1px dashed;
   border-color: #9747ff;
+  padding: 2%;
 }
 
 .crea-corso .property-default {
-  top: 20px;
-  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2%;
   width: 100%;
   max-width: 889px;
   height: 56px;
-  left: 20px;
 }
 
 .crea-corso .text-wrapper-3 {
-  position: absolute;
   top: 14px;
   left: 10px;
   font-family: "Poppins-Regular", Helvetica;
@@ -179,7 +181,7 @@
   width: 100%;
   max-width: 600px;
   align-items: flex-start;
-  position: absolute;
+
   top: 0;
   left: calc(50% - 300px);
 }
@@ -230,7 +232,7 @@
   align-items: center;
   gap: 10px;
   padding: 0px 4px;
-  position: absolute;
+
   top: 0;
   left: 12px;
   background-color: var(--palette-background-paper-elevation-0);
@@ -253,7 +255,7 @@
 
 .crea-corso .property {
   top: 96px;
-  position: absolute;
+
   width: 100%;
   max-width: 889px;
   height: 56px;
@@ -262,7 +264,7 @@
 
 .crea-corso .property-variant {
   top: 172px;
-  position: absolute;
+
   width: 100%;
   max-width: 889px;
   height: 56px;
@@ -271,7 +273,7 @@
 
 .crea-corso .property-2 {
   top: 358px;
-  position: absolute;
+
   width: 100%;
   max-width: 889px;
   height: 56px;
@@ -280,7 +282,7 @@
 
 .crea-corso .property-3 {
   top: 434px;
-  position: absolute;
+
   width: 100%;
   max-width: 889px;
   height: 56px;
@@ -295,14 +297,13 @@
   align-items: center;
   justify-content: center;
   padding: 6px 16px;
-  position: absolute;
-  top: 10px;
-  left: calc(50% - 300px);
+
   background-color: var(--palette-primary-main);
   border-radius: var(--shape-borderradius);
   overflow: hidden;
   box-shadow: var(--elevation-2);
   color: white;
+  margin-right: 56%;
 }
 
 .crea-corso .base {
@@ -332,7 +333,7 @@
 
 .crea-corso .property-4 {
   top: 510px;
-  position: absolute;
+
   width: 100%;
   max-width: 889px;
   height: 56px;
@@ -341,7 +342,7 @@
 
 .crea-corso .property-5 {
   top: 586px;
-  position: absolute;
+
   width: 100%;
   max-width: 889px;
   height: 56px;
@@ -356,15 +357,12 @@
   justify-content: center;
   gap: 8px;
   padding: 12px 20px;
-  position: absolute;
-  top: 926px;
-  left: calc(50% - 90px);
+
   background-color: #ff3b30;
   border-radius: 8px;
   transition: all 0.3s ease;
   border: none;
   color: white;
-  margin-left: 8%;
 }
 
 .crea-corso .label {
@@ -390,24 +388,20 @@
   justify-content: center;
   gap: 8px;
   padding: 12px 20px;
-  position: absolute;
-  top: 926px;
-  left: calc(50% - 270px);
+
   background-color: #4cd964;
   border-radius: 8px;
   transition: all 0.3s ease;
   border: none;
   color: white;
-  margin-left: 7%;
+  margin-left: 1%;
 }
 
 .crea-corso .radio-group {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: absolute;
-  top: 440px;
-  left: calc(50% - 150px);
+  margin-right: 59%;
 }
 
 .crea-corso .div-2 {
@@ -458,7 +452,6 @@
 }
 
 .crea-corso .footer {
-  position: absolute;
   width: 100%;
   max-width: 1440px;
   height: 235px;
@@ -483,7 +476,6 @@
 }
 
 .crea-corso .DP-logo-cyber {
-  position: absolute;
   width: 120px;
   height: 106px;
   top: -1597px;
@@ -492,7 +484,6 @@
 }
 
 .crea-corso .text-wrapper-4 {
-  position: absolute;
   top: 105px;
   left: 218px;
   font-family: "Poppins-Bold", Helvetica;
@@ -505,7 +496,6 @@
 }
 
 .crea-corso .p {
-  position: absolute;
   width: 524px;
   top: 158px;
   left: 16px;
@@ -524,4 +514,12 @@
 
 .div-radio-button {
   margin-bottom: 4px;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
 }
