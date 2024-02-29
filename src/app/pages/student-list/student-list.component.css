@@ -8,29 +8,17 @@
 
 .classi-disponibili .div {
   background-color: #ededed;
-  width: 1440px;
-  height: 1225px;
-  position: relative;
-}
-
-.classi-disponibili .divider {
-  position: absolute;
-  width: 1223px;
-  height: 101px;
-  top: 263px;
-  left: 105px;
-  overflow: hidden;
-}
-
-.classi-disponibili .divider-horizontal {
   display: flex;
   flex-direction: column;
-  width: 1276px;
-  height: 3px;
-  align-items: flex-start;
-  position: relative;
-  top: 51px;
-  background-color: #d9d9d9;
+  align-items: center;
+  width: 85%;
+  height: fit-content;
+  padding: 3% 0%;
+}
+
+.solid {
+  width: 100%;
+  margin: 3% 0%;
 }
 
 .classi-disponibili .min-height {
@@ -48,7 +36,6 @@
 }
 
 .classi-disponibili .overlap-group {
-  position: absolute;
   width: 1317px;
   height: 819px;
   top: 364px;
@@ -57,7 +44,6 @@
 }
 
 .classi-disponibili .accordion-summary {
-  position: absolute;
   width: 1317px;
   height: 819px;
   top: 0;
@@ -75,7 +61,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -156,7 +142,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -169,7 +155,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -182,7 +168,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -195,7 +181,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -208,7 +194,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -221,7 +207,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -234,7 +220,7 @@
   width: 1277px;
   height: 68px;
   align-items: flex-start;
-  position: absolute;
+
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
   box-shadow: var(--elevation-1);
@@ -261,7 +247,7 @@
   width: 1277px;
   height: 227px;
   align-items: flex-start;
-  position: absolute;
+
   top: 227px;
   /* left: 20px; */
   background-color: var(--palette-background-paper-elevation-1);
@@ -303,7 +289,6 @@
 }
 
 .classi-disponibili .list-item-wrapper {
-  position: absolute;
   width: 147px;
   height: 30px;
   top: 20px;
@@ -316,7 +301,6 @@
 }
 
 .classi-disponibili .text-wrapper-2 {
-  position: absolute;
   top: 3px;
   left: 53px;
   font-family: "Poppins-Light", Helvetica;
@@ -329,7 +313,6 @@
 }
 
 .classi-disponibili .face {
-  position: absolute;
   width: 30px;
   height: 30px;
   top: 0;
@@ -337,7 +320,6 @@
 }
 
 .classi-disponibili .property-5 {
-  position: absolute;
   width: 147px;
   height: 30px;
   top: 70px;
@@ -345,7 +327,6 @@
 }
 
 .classi-disponibili .property-6 {
-  position: absolute;
   width: 147px;
   height: 30px;
   top: 120px;
@@ -353,17 +334,18 @@
 }
 
 .classi-disponibili .title-card {
-  position: absolute;
-  width: 1277px;
+  width: 100%;
   height: 205px;
-  top: 57px;
-  left: 81px;
   background-color: #4cd964;
   border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3%;
 }
 
 .classi-disponibili .text-wrapper-3 {
-  position: absolute;
   top: 89px;
   left: 72px;
   font-family: "Poppins-Bold", Helvetica;
@@ -376,7 +358,6 @@
 }
 
 .classi-disponibili .school {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 60px;
@@ -384,9 +365,9 @@
 }
 
 .accordion-container {
-  position: absolute;
-  width: 1223px;
-  height: 101px;
-  top: 370px;
-  left: 105px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -6,29 +6,29 @@
   align-items: center;
   width: 100%;
   height: fit-content;
+  padding: 3% 0%;
 }
 
 .crea-corso .div {
   background-color: #ededed;
   overflow: hidden;
   /* width: 100%;
-  max-width: 1440px; */
-  height: 1583px;
+   */
+  height: fit-content;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 85%;
 }
 
 .crea-corso .overlap {
   /* width: 100%; */
-  max-width: 1273px;
   height: 205px;
   top: 75px;
   background-size: 100% 100%;
-  position: absolute;
+
   /* left: 0; */
   background-color: #3164f4;
   border-radius: 10px;
@@ -42,7 +42,7 @@
 }
 
 .crea-corso .text-wrapper-5 {
-  /* position: absolute; */
+  /*      */
   /* width: 402px; */
   top: 80px;
   left: 55px;
@@ -55,7 +55,7 @@
 }
 
 .crea-corso .local-library {
-  /* position: absolute; */
+  /*      */
   width: 70px;
   height: 70px;
   top: 50px;
@@ -63,9 +63,8 @@
 }
 
 .crea-corso .divider {
-  position: absolute;
   width: 100%;
-  max-width: 1223px;
+
   height: 101px;
   top: 305px;
   /* left: 0; */
@@ -76,7 +75,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1276px;
+
   height: 3px;
   align-items: flex-start;
   position: relative;
@@ -101,13 +100,11 @@
 .crea-corso .overlap-group {
   padding: 4% 0px;
   width: 100%;
-  max-width: 1277px;
-  height: 1090px;
-  top: 431px;
+  height: fit-content;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0px 4px 4px #00000040;
-  position: absolute;
+
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -116,9 +113,8 @@
 }
 
 .crea-corso .frame {
-  /* position: absolute; */
+  /*      */
   width: 100%;
-  max-width: 624px;
   height: fit-content;
   top: 28px;
   left: calc(50% - 312px);
@@ -131,7 +127,7 @@
 }
 
 .crea-corso .text-wrapper {
-  /* position: absolute; */
+  /*      */
   top: 44px;
   left: 70px;
   font-family: "Poppins-SemiBold", Helvetica;
@@ -144,11 +140,11 @@
 }
 
 .crea-corso .vector {
-  /* position: absolute; */
+  /*      */
   width: 33px;
   height: 37px;
-  margin-bottom: 4%;
-  margin-left: 2%;
+  margin-bottom: 1%;
+  margin-left: 1%;
   /* top: 32px;
   left: 518px; */
 }
@@ -159,22 +155,15 @@ hr.solid {
   margin-top: 1%;
   margin-bottom: 3%;
 }
-
-.crea-corso .divider-horizontal-wrapper {
-  /* position: absolute; */
+hr.solid-1 {
+  border-top: 3px solid #bbb;
   width: 100%;
-  max-width: 643px;
-  height: 101px;
-  top: 97px;
-  left: calc(50% - 321.5px);
-  overflow: hidden;
-  margin-top: 5%;
+  margin: 3% 0%;
 }
 
 .crea-corso .frame-2 {
-  /* position: absolute; */
-  width: 100%;
-  max-width: 929px;
+  /*      */
+  width: 80%;
   height: fit-content;
   top: 172px;
   left: calc(50% - 464.5px);
@@ -184,14 +173,13 @@ hr.solid {
   border-color: #9747ff;
   display: flex;
   flex-direction: column;
-  padding: 2% 0px;
+  padding: 2%;
 }
 
 .crea-corso .property-default {
   /* top: 20px; */
-  /* position: absolute; */
+  /*      */
   width: 100%;
-  max-width: 889px;
   height: 56px;
   /* left: 20px; */
   display: flex;
@@ -199,11 +187,10 @@ hr.solid {
   justify-content: space-between;
   align-items: center;
   margin-top: 2%;
-  margin-left: 2%;
 }
 
 .crea-corso .text-wrapper-3 {
-  /* position: absolute; */
+  /*      */
   top: 14px;
   left: 10px;
   font-family: "Poppins-Regular", Helvetica;
@@ -213,17 +200,18 @@ hr.solid {
   letter-spacing: 0.25px;
   line-height: 24.7px;
   white-space: nowrap;
+  width: 30%;
 }
 
 .crea-corso .text-field {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 600px;
   align-items: flex-start;
-  /* position: absolute;
+  /*     
   top: 0; */
   left: calc(50% - 300px);
+  width: 70%;
 }
 
 .crea-corso .input {
@@ -272,7 +260,7 @@ hr.solid {
   align-items: center;
   gap: 10px;
   padding: 0px 4px;
-  position: absolute;
+
   top: 0;
   left: 12px;
   background-color: var(--palette-background-paper-elevation-0);
@@ -295,36 +283,32 @@ hr.solid {
 
 .crea-corso .property {
   top: 96px;
-  position: absolute;
+
   width: 100%;
-  max-width: 889px;
   height: 56px;
   left: 20px;
 }
 
 .crea-corso .property-variant {
   top: 172px;
-  position: absolute;
+
   width: 100%;
-  max-width: 889px;
   height: 56px;
   left: 20px;
 }
 
 .crea-corso .property-2 {
   top: 358px;
-  position: absolute;
+
   width: 100%;
-  max-width: 889px;
   height: 56px;
   left: 20px;
 }
 
 .crea-corso .property-3 {
   top: 434px;
-  position: absolute;
+
   width: 100%;
-  max-width: 889px;
   height: 56px;
   left: 20px;
 }
@@ -338,7 +322,7 @@ hr.solid {
   justify-content: center;
   padding: 6px 16px;
   margin-right: 56%;
-  /* position: absolute; */
+  /*      */
   top: 10px;
   left: calc(50% - 300px);
   background-color: var(--palette-primary-main);
@@ -375,18 +359,16 @@ hr.solid {
 
 .crea-corso .property-4 {
   top: 510px;
-  position: absolute;
+
   width: 100%;
-  max-width: 889px;
   height: 56px;
   left: 20px;
 }
 
 .crea-corso .property-5 {
   top: 586px;
-  position: absolute;
+
   width: 100%;
-  max-width: 889px;
   height: 56px;
   left: 20px;
 }
@@ -399,7 +381,7 @@ hr.solid {
   justify-content: center;
   gap: 8px;
   padding: 12px 20px;
-  /* position: absolute; */
+  /*      */
   top: 926px;
   left: calc(50% - 90px);
   background-color: #ff3b30;
@@ -433,7 +415,7 @@ hr.solid {
   justify-content: center;
   gap: 8px;
   padding: 12px 20px;
-  /* position: absolute; */
+  /*      */
   top: 926px;
   left: calc(50% - 270px);
   background-color: #4cd964;
@@ -448,7 +430,7 @@ hr.solid {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* position: absolute; */
+  /*      */
   top: 440px;
   left: calc(50% - 150px);
   margin-right: 59%;
@@ -502,9 +484,7 @@ hr.solid {
 }
 
 .crea-corso .footer {
-  position: absolute;
   width: 100%;
-  max-width: 1440px;
   height: 235px;
   top: 1821px;
   left: 0;
@@ -518,7 +498,6 @@ hr.solid {
 .crea-corso .logo {
   position: relative;
   width: 100%;
-  max-width: 556px;
   height: 201px;
   top: 17px;
   left: calc(50% - 278px);
@@ -527,7 +506,6 @@ hr.solid {
 }
 
 .crea-corso .DP-logo-cyber {
-  position: absolute;
   width: 120px;
   height: 106px;
   top: -1597px;
@@ -536,7 +514,6 @@ hr.solid {
 }
 
 .crea-corso .text-wrapper-4 {
-  position: absolute;
   top: 105px;
   left: 218px;
   font-family: "Poppins-Bold", Helvetica;
@@ -549,7 +526,6 @@ hr.solid {
 }
 
 .crea-corso .p {
-  position: absolute;
   width: 524px;
   top: 158px;
   left: 16px;
@@ -575,5 +551,5 @@ hr.solid {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 12%;
+  margin-top: 9%;
 }

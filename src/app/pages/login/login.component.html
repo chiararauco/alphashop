@@ -1,19 +1,21 @@
 <div class="login">
     <div class="overlap-group-wrapper">
-        <div class="overlap-group">
-            <div class="login-form">
-                <div class="text-wrapper">Accedi</div>
-                <div class="div">Password</div>
-                <button class="text-wrapper-2">Non ricordi la password?</button>
-                <div class="text-wrapper-3">Username</div>
-                <input type="text" class="rectangle" placeholder="Username" [(ngModel)]="userId" />
-                <input type="password" placeholder="Password" class="rectangle-2" [(ngModel)]="password" />
-                <button class="button" (click)="gestAuth()">ACCEDI
-                </button>
-
-            </div>
-            <div class="text-wrapper-4">Cyber Range Unavox 1.0</div>
+        <div class="intestazione">
+            <p class="text-wrapper-4">Cyber Range Unavox 1.0</p>
             <p class="p">LMS 2.0 Your learning platform</p>
         </div>
+
+        <!-- <div class="overlap-group"> -->
+        <div class="login-form">
+            <div class="text-wrapper">Accedi</div>
+            <p class="par">Username</p>
+            <input type="text" class="rectangle" placeholder="Username" [(ngModel)]="userId" />
+            <p class="par">Password</p>
+            <input type="password" placeholder="Password" class="rectangle-2" [(ngModel)]="password" />
+            <button class="text-wrapper-2">Non ricordi la password?</button>
+            <button class="button" (click)="gestAuth()">ACCEDI </button>
+        </div>
+
+        <!-- </div> -->
     </div>
 </div>

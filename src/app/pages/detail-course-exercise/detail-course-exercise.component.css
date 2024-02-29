@@ -5,9 +5,9 @@
   background-color: #ededed;
   display: flex;
   flex-direction: column;
-  gap: 120px;
   height: fit-content;
   width: 100%;
+  padding: 3% 0%;
 }
 
 .mostra-corso {
@@ -15,10 +15,10 @@
   background-color: #ededed;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  height: 1096px;
-  padding: 83px 111px;
-  width: 1440px;
+  /* gap: 6px; */
+  height: fit-content;
+  /* padding: 83px 111px; */
+  width: 85%;
 }
 
 .container {
@@ -54,10 +54,10 @@
   align-items: flex-end;
   align-self: center;
   display: flex;
-  gap: 4px;
-  height: 781px;
+  /* gap: 4px; */
+  height: fit-content;
   padding: 0 2px;
-  width: 1184px;
+  width: 100%;
 }
 
 .mostra-corso .frame-11 {

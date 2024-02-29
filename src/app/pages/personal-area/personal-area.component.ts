@@ -8,6 +8,14 @@ import { Router } from '@angular/router';
 })
 export class PersonalAreaComponent {
 
-  constructor(){}
+  constructor(private router: Router) { }
+
+  goToDetailClass() {
+    this.router.navigate(['/detail-class'])
+  }
+
+  goToEditClass() {
+    this.router.navigate(['/edit-class'])
+  }
 
 }

@@ -5,9 +5,9 @@
   background-color: #ededed;
   display: flex;
   flex-direction: column;
-  gap: 120px;
-  height: 1602px;
+  height: fit-content;
   width: 100%;
+  padding: 3% 0%;
 }
 
 .dettaglio-classe .navbar-variant2 {
@@ -73,25 +73,22 @@
 }
 
 .dettaglio-classe .overlap-group {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  margin-right: 3px;
   min-height: fit-content;
-  padding: 20px 38px;
-  width: 1277px;
+  padding: 38px 38px;
+  width: 85%;
   background: white;
-  margin-top: 70px;
   border-radius: 10px;
+  height: fit-content;
 }
 
 .dettaglio-classe .frame-5 {
-  align-items: flex-end;
+  align-items: center;
+  justify-content: flex-start;
   display: flex;
-  height: 108px;
-  margin-left: 19px;
-  padding: 40px 58px;
-  width: 624px;
+  width: 100%;
 }
 
 .dettaglio-classe .title {
@@ -106,10 +103,9 @@
 }
 
 .dettaglio-classe .overlap-group1 {
-  align-self: flex-end;
-  height: 160px;
-  position: relative;
-  width: 1182px;
+  align-self: flex-start;
+  height: fit-content;
+  width: 100%;
 }
 
 .dettaglio-classe .divider {
@@ -119,9 +115,14 @@
   left: 0;
   overflow: hidden;
   padding: 30px 0;
-  position: absolute;
+
   top: 70px;
   width: 1182px;
+}
+
+.solid {
+  width: 100%;
+  margin: 3% 0%;
 }
 
 .dettaglio-classe .divider-horizontal {
@@ -137,30 +138,29 @@
 
 .dettaglio-classe .title-description-class {
   align-items: center;
+  justify-content: center;
   display: flex;
-  gap: 18px;
-  height: 80px;
-  left: 58px;
-  padding: 0 23px;
-  position: absolute;
+  gap: 7px;
+  height: fit-content;
+  margin-top: 3%;
+  /* padding: 0 23px; */
   top: 0;
-  width: 780px;
+  width: 100%;
 }
 
 .dettaglio-classe .help-outline {
-  height: 68px;
-  width: 68px;
+  height: 50px;
+  width: 50px;
 }
 
 .dettaglio-classe .corso-host-security {
   color: #ff9500;
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxl);
+  font-size: x-large;
   font-weight: 600;
   letter-spacing: 0.15px;
   line-height: 24px;
   margin-bottom: 2px;
-  min-width: 648px;
   white-space: nowrap;
 }
 
@@ -173,16 +173,16 @@
   line-height: 24px;
   margin-left: 106px;
   margin-top: 11px;
-  width: 382px;
+  width: 100%;
 }
 
 .dettaglio-classe .overlap-group2 {
   align-self: center;
   border-radius: 5px;
-  height: 865px;
-  margin-top: 47px;
+  height: fit-content;
+  /* margin-top: 47px; */
   position: relative;
-  width: 929px;
+  width: 85%;
 }
 
 .dettaglio-classe .frame-7 {
@@ -192,14 +192,12 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   height: fit-content;
-  left: 0;
   overflow: hidden;
-  padding: 20px 0;
-  position: absolute;
+  padding: 10px 0;
+
   top: 0;
-  width: 929px;
+  width: 100%;
 }
 
 .dettaglio-classe .property-1-default {
@@ -427,11 +425,10 @@
   border-radius: 8px;
   cursor: pointer;
   gap: 8px;
-  height: 45px;
+  height: 40px;
   /* justify-content: center; */
   left: 789px;
-  padding: 12px 20px;
-  /* position: absolute; */
+  /*   */
   /* top: 555px; */
   transition: all 0.3s ease;
   width: 110px;
@@ -477,14 +474,14 @@
 .dettaglio-classe .property-1 {
   align-items: flex-start;
   display: flex;
-  padding: 14px 10px;
-  width: 889px;
+  padding: 10px 20px;
+  width: 100%;
 }
 .dettaglio-classe .property-2 {
   align-items: flex-start;
   display: flex;
   padding: 14px 10px;
-  width: 889px;
+  width: 100%;
   justify-content: flex-end;
 }
 

@@ -4,17 +4,20 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding: 3% 0%;
 }
 
 .sessioni-di-gioco .div {
   background-color: #ededed;
-  width: 1440px;
-  height: 1450px;
-  position: relative;
+  width: 85%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .sessioni-di-gioco .table {
-  position: absolute;
   width: 1277px;
   height: 730px;
   top: 515px;
@@ -22,8 +25,7 @@
 }
 
 .sessioni-di-gioco .frame {
-  position: absolute;
-  width: 1277px;
+  width: 100%;
   height: fit-content;
   top: 471px;
   left: 81px;
@@ -46,7 +48,7 @@
   width: 1222px;
   height: 624px;
   align-items: flex-start;
-  position: absolute;
+
   top: 0;
   left: 0;
 }
@@ -197,7 +199,6 @@
 }
 
 .sessioni-di-gioco .text-wrapper-2 {
-  position: absolute;
   top: 3px;
   left: 0;
   font-family: var(--typography-caption-font-family);
@@ -211,7 +212,6 @@
 }
 
 .sessioni-di-gioco .arrow-drop-down {
-  position: absolute;
   width: 24px;
   height: 24px;
   top: 0;
@@ -257,7 +257,6 @@
 }
 
 .sessioni-di-gioco .not-interested {
-  position: absolute;
   width: 24px;
   height: 24px;
   top: 103px;
@@ -267,7 +266,7 @@
 .sessioni-di-gioco .not-interested-2 {
   top: 576px;
   left: 1063px;
-  position: absolute;
+
   width: 24px;
   height: 24px;
 }
@@ -275,7 +274,7 @@
 .sessioni-di-gioco .not-interested-3 {
   top: 456px;
   left: 1066px;
-  position: absolute;
+
   width: 24px;
   height: 24px;
 }
@@ -283,7 +282,7 @@
 .sessioni-di-gioco .not-interested-4 {
   top: 337px;
   left: 1066px;
-  position: absolute;
+
   width: 24px;
   height: 24px;
 }
@@ -291,13 +290,12 @@
 .sessioni-di-gioco .not-interested-5 {
   top: 220px;
   left: 1066px;
-  position: absolute;
+
   width: 24px;
   height: 24px;
 }
 
 .sessioni-di-gioco .divider {
-  position: absolute;
   width: 1223px;
   height: 101px;
   top: 259px;
@@ -331,8 +329,7 @@
 }
 
 .sessioni-di-gioco .overlap {
-  position: absolute;
-  width: 1277px;
+  width: 100%;
   height: 205px;
   top: 44px;
   left: 81px;
@@ -340,17 +337,22 @@
 }
 
 .sessioni-di-gioco .title-card {
-  position: absolute;
-  width: 1277px;
+  width: 100;
   height: 205px;
-  top: 0;
-  left: 0;
+  padding-left: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   background-color: #c586f0;
   border-radius: 10px;
 }
 
+.solid {
+  width: 100%;
+  margin: 3% 0%;
+}
 .sessioni-di-gioco .text-wrapper-3 {
-  position: absolute;
   top: 89px;
   left: 72px;
   font-family: "Poppins-Bold", Helvetica;
@@ -363,7 +365,6 @@
 }
 
 .sessioni-di-gioco .play-circle-outline {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 68px;
@@ -375,9 +376,7 @@
   flex-direction: column;
   width: 700px;
   align-items: flex-start;
-  position: absolute;
-  top: 370px;
-  left: 368px;
+  margin-top: 3%;
 }
 
 .sessioni-di-gioco .content-wrapper {
@@ -415,7 +414,6 @@
 }
 
 .sessioni-di-gioco .magnifyingglass-2 {
-  position: absolute;
   width: 28px;
   height: 28px;
   top: -1px;

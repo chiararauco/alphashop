@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-accordion-classes-courses',
@@ -6,6 +7,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./accordion-classes-courses.component.css']
 })
 export class AccordionClassesCoursesComponent {
+  constructor(private router: Router) { }
   @ViewChild('accordions') accordions!: ElementRef;
 
   ngAfterViewInit(): void {
@@ -23,5 +25,12 @@ export class AccordionClassesCoursesComponent {
         }
       });
     });
+  }
+
+  goToCourses() {
+    this.router.navigate(['/detail-course'])
+  }
+  goToClasses() {
+    this.router.navigate(['/detail-class'])
   }
 }

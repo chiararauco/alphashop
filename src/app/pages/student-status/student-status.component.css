@@ -4,18 +4,26 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding: 3% 0%;
 }
 
 .allievi .div {
   background-color: #ededed;
-  width: 1440px;
-  height: 1500px;
+  width: 85%;
+  height: fit-content;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.solid {
+  width: 100%;
+  margin: 3% 0%;
 }
 
 .allievi .frame {
-  position: absolute;
-  width: 1277px;
+  width: 100%;
   height: fit-content;
   top: 471px;
   left: 81px;
@@ -38,7 +46,6 @@
 }
 
 .allievi .table-wrapper {
-  position: absolute;
   top: 0;
   left: 0;
   width: 1223px;
@@ -206,7 +213,6 @@
 }
 
 .allievi .text-wrapper-2 {
-  position: absolute;
   top: 3px;
   left: 0;
   font-family: var(--typography-caption-font-family);
@@ -220,7 +226,6 @@
 }
 
 .allievi .arrow-drop-down {
-  position: absolute;
   width: 24px;
   height: 24px;
   top: 0;
@@ -267,7 +272,7 @@
 
 .allievi .vector {
   top: 176px;
-  position: absolute;
+
   width: 20px;
   height: 20px;
   left: 1018px;
@@ -275,7 +280,7 @@
 
 .allievi .vector-2 {
   top: 431px;
-  position: absolute;
+
   width: 20px;
   height: 20px;
   left: 1018px;
@@ -283,7 +288,7 @@
 
 .allievi .vector-3 {
   top: 482px;
-  position: absolute;
+
   width: 20px;
   height: 20px;
   left: 1018px;
@@ -291,7 +296,7 @@
 
 .allievi .vector-4 {
   top: 380px;
-  position: absolute;
+
   width: 20px;
   height: 20px;
   left: 1018px;
@@ -299,7 +304,7 @@
 
 .allievi .vector-5 {
   top: 329px;
-  position: absolute;
+
   width: 20px;
   height: 20px;
   left: 1018px;
@@ -307,7 +312,7 @@
 
 .allievi .vector-6 {
   top: 278px;
-  position: absolute;
+
   width: 20px;
   height: 20px;
   left: 1018px;
@@ -315,22 +320,19 @@
 
 .allievi .vector-7 {
   top: 227px;
-  position: absolute;
+
   width: 20px;
   height: 20px;
   left: 1018px;
 }
 
 .allievi .overlap {
-  position: absolute;
-  width: 1249px;
-  height: 133px;
-  top: 271px;
-  left: 81px;
+  width: 100%;
+  height: fit-content;
+
 }
 
 .allievi .divider {
-  position: absolute;
   width: 1223px;
   height: 101px;
   top: 0;
@@ -364,7 +366,6 @@
 }
 
 .allievi .p {
-  position: absolute;
   top: 97px;
   left: 0;
   font-family: "Poppins-Bold", Helvetica;
@@ -377,17 +378,18 @@
 }
 
 .allievi .title-card {
-  position: absolute;
-  width: 1277px;
+  width: 100%;
   height: 205px;
-  top: 61px;
-  left: 81px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3%;
   background-color: #4cd964;
   border-radius: 10px;
 }
 
 .allievi .text-wrapper-3 {
-  position: absolute;
   top: 89px;
   left: 72px;
   font-family: "Poppins-Bold", Helvetica;
@@ -400,7 +402,6 @@
 }
 
 .allievi .school {
-  position: absolute;
   width: 70px;
   height: 70px;
   top: 60px;
@@ -408,7 +409,6 @@
 }
 
 .allievi .text-wrapper-4 {
-  position: absolute;
   top: 414px;
   left: 81px;
   font-family: "Poppins-Light", Helvetica;
